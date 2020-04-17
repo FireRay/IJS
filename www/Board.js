@@ -6,7 +6,37 @@ class Board {
 
   }
 
-  makeMove(column) {
+  async makeMove(column) {
+
+
+
+  }
+
+
+  winCheck() {
+
+
+
+  }
+
+  render() {
+
+
+
+  }
+
+  markWin(combo) {
+
+
+
+  }
+
+  addEventListener() {
+
+
+  }
+
+  removeEventListener() {
 
 
 
