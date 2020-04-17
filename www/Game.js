@@ -2,9 +2,14 @@ class Game {
 
   constructor() {
 
+    addEventListener();
+    start();
+
   }
 
   start() {
+
+
 
   }
 
