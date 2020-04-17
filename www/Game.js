@@ -9,7 +9,7 @@ class Game {
 
   start() {
 
-
+    let board = new Board(this);
 
   }
 
