@@ -3,15 +3,17 @@ class Game {
   constructor() {
 
     //call methods in following order.
-    addEventListener();
-    start();
+    this.addEventListener();
+    this.start();
 
   }
 
   start() {
 
-    //create new instance of board and sends current instance of Game to it's constructor. 
+    //create new instance of board and sends current instance of Game to boards constructor. 
     //stores instance of Game in board var.
+
+
     let board = new Board(this);
 
   }
@@ -29,8 +31,6 @@ class Game {
 
 
 
-
-
   over(won) {
 
   }
@@ -40,6 +40,8 @@ class Game {
   }
 
 }
+
+
 
 // make it possible to test on backend
 if (typeof global !== 'undefined') { global.Game = Game };
