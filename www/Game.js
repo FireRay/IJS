@@ -33,6 +33,13 @@ class Game {
 
   over(won) {
 
+    (won === 1) ? $('.message').innerHTML('Röd vann!') :
+      (won === 2) ? $('.message').innerHTML('Gul vann') :
+        (won === 'draw') ? $('.message').innerHTML('Det blev oavgjort!') :
+          ('');
+
+
+
   }
 
   addEventListener() {
