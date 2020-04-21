@@ -12,12 +12,9 @@ class Game {
 
     //create new instance of board and sends current instance of Game to boards constructor. 
     //stores instance of Game in board var.
-
-
     let board = new Board(this);
 
   }
-
 
   tellTurn(player) {
 
@@ -33,12 +30,20 @@ class Game {
 
   over(won) {
 
+    //receive won as inarg
+    //if won = 1 the DOM element should display 'Röd vann!'
+    //if won = 2 the DOM element should display 'Gul vann!'
+    //if won = 'draw' the DOM element should display 'Det blev oavgjort!'
     (won === 1) ? $('.message').innerHTML('Röd vann!') :
       (won === 2) ? $('.message').innerHTML('Gul vann') :
         (won === 'draw') ? $('.message').innerHTML('Det blev oavgjort!') :
           ('');
-
-
+    //Added a button to DOM-element with CSS-class message.
+    //Button had CSS-class again with text 'Spela igen'. 
+    let btn = document.createElement('button');
+    btn.className = 'again';
+    btn.innerHTML = 'Spela igen';
+    $('.message').append(btn);
 
   }
 
