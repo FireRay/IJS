@@ -13,3 +13,7 @@ Feature: Play Connect 4
   Scenario: A board adds 42 divs to the .board element
     Given that a new Board is created
     Then it should render 42 divs as children of the board element
+
+  Scenario: The .message element should display who's turn it is
+    Given that a game is still in play
+    Then the .message element should display a text of who's turn it is

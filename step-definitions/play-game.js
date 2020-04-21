@@ -32,4 +32,21 @@ module.exports = function () {
     );
   });
 
+  this.Given(/^that a game is still in play$/, function () {
+    // Write code here that turns the phrase above into concrete actions
+    expect(playInProgress).to.be.true;
+  });
+
+  this.Then(/^the \.message element should display a text of who's turn it is$/, function () {
+    // Write code here that turns the phrase above into concrete actions
+    if (player = 1) {
+      game.tellTurn(player);
+      expect($('.message').innerHTML).to.equal('Röds tur…');
+    }
+    else if (player = 2) {
+      game.tellTurn(player);
+      expect($('.message').innerHTML).to.equal('Guls tur…');
+    }
+  });
+
 }
