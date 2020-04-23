@@ -44,10 +44,13 @@ class Game {
     btn.className = 'again';
     btn.innerHTML = 'Spela igen';
     $('.message').append(btn);
-
   }
 
+
+
   addEventListener() {
+
+
 
   }
 
