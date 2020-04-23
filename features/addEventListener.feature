@@ -5,6 +5,6 @@ Feature: Notification when a button in clicked
 
   # 1
   Scenario: Clicked a button
-    Given that  method addEventListeners has an EventListener with a click event
+    Given that the method addEventListeners has an EventListener with a click event
     When you click the button
     Then the start method should be called.

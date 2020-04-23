@@ -11,14 +11,14 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that  method addEventListeners has an EventListener with a click event",
+            "name": "that the method addEventListeners has an EventListener with a click event",
             "result": {
               "status": "passed",
-              "duration": 406201
+              "duration": 444800
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:24"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:20"
             }
           },
           {
@@ -27,12 +27,12 @@
             "name": "you click the button",
             "result": {
               "status": "failed",
-              "duration": 13014200,
-              "error_message": "TypeError: Cannot read property 'addEventListener' of null\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:33:23)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 12024700,
+              "error_message": "TypeError: Cannot read property 'addEventListener' of null\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:28:23)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:31"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:26"
             }
           },
           {
@@ -44,7 +44,7 @@
             },
             "line": 10,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:37"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:32"
             }
           },
           {
@@ -52,7 +52,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2397611400
+              "duration": 2338448900
             },
             "hidden": true,
             "embeddings": [
