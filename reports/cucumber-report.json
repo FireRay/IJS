@@ -1,51 +1,50 @@
 [
   {
-    "description": "  As a gamer\n  I want the constructor to call on the methods\n  So I can play the game.",
+    "description": "  As a Connect 4 player user\n  I want to know when I have clicked a button\n  So I know that I can play.",
     "elements": [
       {
-        "id": "call-methods-in-constructor;the-game-calls-on-2-methods",
+        "id": "notification-when-a-button-in-clicked;clicked-a-button",
         "keyword": "Scenario",
         "line": 7,
-        "name": "The game calls on 2 methods",
+        "name": "Clicked a button",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the game starts",
+            "name": "that  method addEventListeners has an EventListener with a click event",
             "result": {
               "status": "passed",
-              "duration": 372601
+              "duration": 406201
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-method.js:24"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "you click the button",
+            "result": {
+              "status": "failed",
+              "duration": 13014200,
+              "error_message": "TypeError: Cannot read property 'addEventListener' of null\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:33:23)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+            },
+            "line": 9,
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:31"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the constructor should first call addEventListener",
+            "name": "the start method should be called.",
             "result": {
-              "status": "passed",
-              "duration": 337300
-            },
-            "line": 9,
-            "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-method.js:30"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the constructor should call start",
-            "result": {
-              "status": "failed",
-              "duration": 1387000,
-              "error_message": "AssertionError: the start-method is not called in the constructor: expected false to be true\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\game-method.js:39:82)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "skipped"
             },
             "line": 10,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-method.js:37"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\addEventListener-method.js:37"
             }
           },
           {
@@ -53,7 +52,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2362727500
+              "duration": 2397611400
             },
             "hidden": true,
             "embeddings": [
@@ -71,11 +70,11 @@
         "type": "scenario"
       }
     ],
-    "id": "call-methods-in-constructor",
+    "id": "notification-when-a-button-in-clicked",
     "keyword": "Feature",
     "line": 1,
-    "name": "Call methods in constructor",
+    "name": "Notification when a button in clicked",
     "tags": [],
-    "uri": "C:\\Users\\Jonas Höglund\\Desktop\\IJS\\features\\game-method.feature"
+    "uri": "C:\\Users\\Jonas Höglund\\Desktop\\IJS\\features\\addEventListener.feature"
   }
 ]
