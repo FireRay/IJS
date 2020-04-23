@@ -3,8 +3,8 @@ class Game {
   constructor() {
 
     //call methods in following order.
-    addEventListener();
-    start();
+    this.addEventListener();
+    this.start();
 
   }
 
