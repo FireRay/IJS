@@ -13,6 +13,13 @@ Feature: The Board class constructor
     Given that the constructor argument is not a instance of Game
     Then an error should display "game must be an instance of Game"
 
+  # 3
+  Scenario: The elements of the Matrix board
+    Given that Board has a matrix property
+    When the array has six elements that each stores seven elements
+    Then every element has the value zero
+
+
 
 
 
