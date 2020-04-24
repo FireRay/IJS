@@ -14,7 +14,7 @@
             "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 422301
+              "duration": 435400
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the argument should be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 406600
+              "duration": 398400
             },
             "line": 9,
             "match": {
@@ -39,7 +39,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2264774599
+              "duration": 2231667300
             },
             "hidden": true,
             "match": {
@@ -62,7 +62,7 @@
             "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 105500
+              "duration": 87301
             },
             "line": 13,
             "match": {
@@ -75,7 +75,7 @@
             "name": "an error should display \"game must be an instance of Game\"",
             "result": {
               "status": "failed",
-              "duration": 271200,
+              "duration": 176000,
               "error_message": "ReferenceError: TestClass is not defined\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:38:21)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 14,
@@ -88,7 +88,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2223389700
+              "duration": 2200654399
             },
             "hidden": true,
             "embeddings": [
