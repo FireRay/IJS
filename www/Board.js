@@ -2,6 +2,15 @@ class Board {
 
   constructor(game) {
 
+    this.game = game;
+
+    if (!game instanceof Game) {
+
+      throw 'game must be an instance of Game';
+
+    }
+
+
 
 
   }
