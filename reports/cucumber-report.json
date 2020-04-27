@@ -14,11 +14,11 @@
             "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 3658800
+              "duration": 457900
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:16"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:37"
             }
           },
           {
@@ -27,12 +27,12 @@
             "name": "the argument should be an instance of Game",
             "result": {
               "status": "failed",
-              "duration": 215700,
-              "error_message": "TypeError: Cannot read property 'game' of undefined\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:26:26)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 256601,
+              "error_message": "TypeError: Cannot read property 'game' of undefined\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:47:26)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:24"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:45"
             }
           },
           {
@@ -40,7 +40,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2377382600
+              "duration": 2419049901
             },
             "hidden": true,
             "embeddings": [
@@ -69,11 +69,11 @@
             "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 152800
+              "duration": 313700
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:31"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:52"
             }
           },
           {
@@ -82,12 +82,12 @@
             "name": "an error should display \"game must be an instance of Game\"",
             "result": {
               "status": "failed",
-              "duration": 3133400,
-              "error_message": "AssertionError: the error is not displayed correctly.: expected [Function] to throw Error\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:44:41)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 3680400,
+              "error_message": "AssertionError: the error is not displayed correctly.: expected [Function] to throw Error\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:65:41)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 14,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:40"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:61"
             }
           },
           {
@@ -95,7 +95,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2247739100
+              "duration": 2222592599
             },
             "hidden": true,
             "embeddings": [
@@ -124,11 +124,11 @@
             "name": "that Board has a matrix property",
             "result": {
               "status": "passed",
-              "duration": 195400
+              "duration": 148800
             },
             "line": 18,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:50"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:71"
             }
           },
           {
@@ -136,9 +136,14 @@
             "keyword": "When ",
             "name": "the array has six elements that each stores seven elements",
             "result": {
-              "status": "undefined"
+              "status": "failed",
+              "duration": 748000,
+              "error_message": "TypeError: Cannot read property 'length' of undefined\n    at Assertion.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\node_modules\\chai\\lib\\chai\\core\\assertions.js:890:14)\n    at Assertion.ctx.<computed> [as property] (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\node_modules\\chai\\lib\\chai\\utils\\addMethod.js:41:25)\n    at Assertion.assertLength (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\node_modules\\chai\\lib\\chai\\core\\assertions.js:1042:37)\n    at Assertion.ctx.<computed> [as lengthOf] (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\node_modules\\chai\\lib\\chai\\utils\\addMethod.js:41:25)\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:81:33)"
             },
-            "line": 19
+            "line": 19,
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:79"
+            }
           },
           {
             "arguments": [],
@@ -149,7 +154,7 @@
             },
             "line": 20,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:65"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:86"
             }
           },
           {
@@ -157,7 +162,145 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2142364900
+              "duration": 2243755599
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-properties-default-settings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "The Board properties default settings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has a board",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the default value of the currentPlayer property is one",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the default value of the playInProgress property is false",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2134872600
+            },
+            "hidden": true,
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-constructor-call-to-methods",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "The Board constructor call to methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the Board constructor is called from the Game class",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "addEventListener, render, tellTurn should be called in the stated order",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2090207600
+            },
+            "hidden": true,
+            "match": {
+              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-call-to-tellturns-inargument",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The call to tellTurns inargument",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the tellTurn method in being called",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the tellTurns inargument should be currentPlayer property",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2109786700
             },
             "hidden": true,
             "match": {

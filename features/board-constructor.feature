@@ -19,6 +19,25 @@ Feature: The Board class constructor
     When the array has six elements that each stores seven elements
     Then every element has the value zero
 
+  #  4
+  Scenario: The Board properties default settings
+    Given that the game has a board
+    Then the default value of the currentPlayer property is one
+    And the default value of the playInProgress property is false
+
+  # 5
+  Scenario:The Board constructor call to methods
+    Given that the Board constructor is called from the Game class
+    Then addEventListener, render, tellTurn should be called in the stated order
+
+  # 6
+  Scenario: The call to tellTurns inargument
+    Given that the tellTurn method in being called
+    Then the tellTurns inargument should be currentPlayer property
+
+
+
+
 
 
 
