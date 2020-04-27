@@ -6,13 +6,6 @@ module.exports = function () {
   let runGame;
   let runBoard;
 
-
-
-
-
-
-
-
   this.Given(/^that the constructor recieves an argument$/, function () {
     // Write code here that turns the phrase above into concrete actions
     runGame = new Game();
@@ -64,6 +57,16 @@ module.exports = function () {
 
   this.Then(/^every element has the value zero$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    for (let i of matrix) {   // declaration of variable holding index of first arr of elements in matrix
+      for (let j of i) {      // declaration of variable holding index of second arr of elements in matrix
+
+        expect(i, j).to.equal(0);
+      }
+
+    }
+
+
 
   });
 
