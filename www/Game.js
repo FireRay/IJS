@@ -53,8 +53,8 @@ class Game {
 
   addEventListener() {
 
-
-
+    $('.message').addEventListener('Click');
+    $('.again').addEventListener('Click', this.start());
   }
 
 }
