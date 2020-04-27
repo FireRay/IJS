@@ -11,8 +11,21 @@ class Board {
 
 
     this.game = game;
+    this.matrix=[ 
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0] 
+    ];
 
+    this.currentPlayer = 1;
+    this.PlayInProgress = false;
 
+    this.addEventListener();
+    this.render();
+    this.game.tellTurn(this.currentPlayer);
 
 
 
