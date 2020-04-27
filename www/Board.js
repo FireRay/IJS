@@ -57,7 +57,15 @@ class Board {
   }
 
   addEventListener() {
-
+    this.listener = even => {
+      let $slot = event.target.closest('.board > div');
+      if (!$slot) { return; }
+      let $allSlots = [...$$('.board > div ')];
+      let index = $allSlots.indexOf($slot);
+      let column = index % 7;
+      console.log(column);
+    };
+    $('.board').addEventListener('click', this.listener);
 
   }
 
