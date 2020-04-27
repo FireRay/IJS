@@ -57,7 +57,7 @@ class Board {
   }
 
   addEventListener() {
-    this.listener = even => {
+    this.listener = event => {
       let $slot = event.target.closest('.board > div');
       if (!$slot) { return; }
       let $allSlots = [...$$('.board > div ')];
@@ -70,7 +70,7 @@ class Board {
   }
 
   removeEventListener() {
-
+    $('.board').removeEventListener('click', this.listener);
 
 
   }
