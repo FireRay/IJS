@@ -144,39 +144,48 @@ class Board {
         }
       }
     }
-
-    render() {
-
-
-
-    }
-
-    markWin(combo) {
-
-
-
-    }
-
-    addEventListener() {
-      this.listener = event => {
-        let $slot = event.target.closest('.board > div');
-        if (!$slot) {
-          return;
-        }
-        let $allSlots = [...$$('.board > div ')];
-        let index = $allSlots.indexOf($slot);
-        let column = index % 7;
-        return column;
-      };
-      $('.board').addEventListener('click', this.listener);
-    }
-
-    removeEventListener() {
-      $('.board').removeEventListener('click', this.listener);
-    }
   }
 
-  //make it possible to test on backend
-  if (typeof global !== 'undefined') {
-    global.Game = Game
-  };
+  render() {
+    for (let col = 0; col < 7; col++) {
+      for (let row = 0; row < 6; row++) {
+        let div = document.createElement('div');
+        let divEmpty = document.createElement('div');
+        (this.matrix[col][row] == 1) ? div.className = 'red': (this.matrix[col][row] == 2) ? div.className = 'yellow' : '';
+        $('.board').append(div).append(divEmpty);
+
+      }
+    }
+
+
+  }
+
+  markWin(combo) {
+
+
+
+  }
+
+  addEventListener() {
+    this.listener = event => {
+      let $slot = event.target.closest('.board > div');
+      if (!$slot) {
+        return;
+      }
+      let $allSlots = [...$$('.board > div ')];
+      let index = $allSlots.indexOf($slot);
+      let column = index % 7;
+      return column;
+    };
+    $('.board').addEventListener('click', this.listener);
+  }
+
+  removeEventListener() {
+    $('.board').removeEventListener('click', this.listener);
+  }
+}
+
+//make it possible to test on backend
+/*if (typeof global !== 'undefined') {
+  global.Game = Game
+};*/
