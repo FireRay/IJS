@@ -91,20 +91,12 @@ class Board {
 
 
   winCheck() {
-    let winner = {
-      vinnaren: '',
-      combo: [
-        [],
-        [],
-        [],
-        []
-      ]
-    };
     let winOffset = [
       [
         [0, 0],
         [0, 1],
-        [0, 2][0, 3]
+        [0, 2],
+        [0, 3]
       ], // horisontal
       [
         [0, 0],
@@ -114,9 +106,9 @@ class Board {
       ], // vertical 
       [
         [0, 0],
-        [1, -1],
-        [2, -2],
-        [3, -3]
+        [1, 1],
+        [2, 2],
+        [3, 3]
       ], // diagonal 1
       [
         [0, 0],
@@ -130,9 +122,17 @@ class Board {
         for (let w of winOffset) {
           let slots = w.map(([r, c]) => this.matrix[row + r] && this.matrix[row + r][col + c]).join('');
           if (slots === '1111' || slots === '2222') {
-            return +slots[0];
-          } //en bit saknas i koden, att kolla om det har blivit oavgjort, isåfall ska wincheck resonera draw
+            return {
+              winner: slots[0];
+              combo:
+            }
+          }
         }
+      }
+    }
+    if (this.matrix[0].findIndex(0) === -1) {
+      return {
+        winner: 'draw';
       }
     }
   }
