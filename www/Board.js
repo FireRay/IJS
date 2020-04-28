@@ -169,8 +169,17 @@ class Board {
 }
 
 // make it possible to test on backend
-
-//make it possible to test on backend
+<<
+<<
+<< < HEAD
 if (typeof global !== 'undefined') {
-  global.Game = Game
-};
+  global.Board = Board ===
+    ===
+    =
+
+    //make it possible to test on backend
+    if (typeof global !== 'undefined') {
+      global.Game = Game >>>
+        >>>
+        > 6424 b6c4856be8791698c643bd067aabe04fee9d
+    };
