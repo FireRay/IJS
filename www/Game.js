@@ -5,6 +5,7 @@ class Game {
     //call methods in following order.
     this.addEventListener();
     this.start();
+    this.over(3);
 
   }
 
@@ -54,10 +55,14 @@ class Game {
 
 
   addEventListener() {
+    this.againClick = event => {
+      let clickTarget = event.target();
+      if (!clickTarget) { return; }
+      else if (clickTarget = '.again') { this.start() }
+    };
+    $('.message').addEventListener('click', this.againClick());
 
-    $('.message').addEventListener('Click');
-    $('.again').addEventListener('Click', this.start());
-  }
+  };
 
 }
 
