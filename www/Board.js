@@ -117,69 +117,66 @@ class Board {
         [3, -3]
       ] // diagonal 2
     ];
+
+    let currentSlot = [];
+
     for (let row = 0; row < 6; row++) {
-      for (let column = 0; column < 7; column++) {
+      for (let col = 0; col < 7; col++) {
         for (let w of winOffset) {
           let slots = w.map(([r, c]) => this.matrix[row + r] && this.matrix[row + r][col + c]).join('');
+          currentSlot.push([row + r, col + c]);
           if (slots === '1111' || slots === '2222') {
             return {
-              winner: slots[0];
-              combo:
+              winner: slots[0],
+              combo: currentSlot
+
             }
+
+          }
+          if (currentSlot.length == 3) {
+            currentSlot = [];
           }
         }
       }
-    }
-    if (this.matrix[0].findIndex(0) === -1) {
-      return {
-        winner: 'draw';
+      if (this.matrix[0].findIndex(0) === -1) {
+        return {
+          winner: 'draw'
+        }
       }
     }
+
+    render() {
+
+
+
+    }
+
+    markWin(combo) {
+
+
+
+    }
+
+    addEventListener() {
+      this.listener = event => {
+        let $slot = event.target.closest('.board > div');
+        if (!$slot) {
+          return;
+        }
+        let $allSlots = [...$$('.board > div ')];
+        let index = $allSlots.indexOf($slot);
+        let column = index % 7;
+        return column;
+      };
+      $('.board').addEventListener('click', this.listener);
+    }
+
+    removeEventListener() {
+      $('.board').removeEventListener('click', this.listener);
+    }
   }
 
-  render() {
-
-
-
-  }
-
-  markWin(combo) {
-
-
-
-  }
-
-  addEventListener() {
-    this.listener = event => {
-      let $slot = event.target.closest('.board > div');
-      if (!$slot) {
-        return;
-      }
-      let $allSlots = [...$$('.board > div ')];
-      let index = $allSlots.indexOf($slot);
-      let column = index % 7;
-      console.log(column);
-    };
-    $('.board').addEventListener('click', this.listener);
-  }
-
-  removeEventListener() {
-    $('.board').removeEventListener('click', this.listener);
-  }
-}
-
-// make it possible to test on backend
-<<
-<<
-<< < HEAD
-if (typeof global !== 'undefined') {
-  global.Board = Board ===
-    ===
-    =
-
-    //make it possible to test on backend
-    if (typeof global !== 'undefined') {
-      global.Game = Game >>>
-        >>>
-        > 6424 b6c4856be8791698c643bd067aabe04fee9d
-    };
+  //make it possible to test on backend
+  if (typeof global !== 'undefined') {
+    global.Game = Game
+  };
