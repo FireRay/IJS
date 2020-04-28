@@ -18,6 +18,11 @@ class Game {
     //if value is 1 message changes it's content value to reds turn 
     //if value is 2 message changes it's content value to yellows turn 
     (player === 1) ? $('.message').innerHTML('Röds tur...'): (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> bb607a2ddbaa5ae73de8eb9f16eeef90b3942ecd
   }
 
   over(won) {
