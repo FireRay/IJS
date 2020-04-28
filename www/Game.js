@@ -32,8 +32,8 @@ class Game {
       (won === 2) ? $('.message').innerHTML('Gul vann') :
       (won === 'draw') ? $('.message').innerHTML('Det blev oavgjort!') :
       ('');
-    //Added a button to DOM-element with CSS-class message.
-    //Button had CSS-class again with text 'Spela igen'. 
+    //added a button to DOM-element with CSS-class message.
+    //button had CSS-class again with text 'Spela igen'. 
     let btn = document.createElement('button');
     btn.className = 'again';
     btn.innerHTML = 'Spela igen';
@@ -53,7 +53,7 @@ class Game {
   };
 }
 
-// make it possible to test on backend
+//make it possible to test on backend
 if (typeof global !== 'undefined') {
   global.Game = Game
 };
