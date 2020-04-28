@@ -104,7 +104,8 @@ class Board {
       [
         [0, 0],
         [0, 1],
-        [0, 2][0, 3]
+        [0, 2],
+        [0, 3]
       ], // horisontal
       [
         [0, 0],
@@ -170,13 +171,16 @@ class Board {
 
 // make it possible to test on backend
 <<
-<< << < HEAD
+<<
+<< < HEAD
 if (typeof global !== 'undefined') {
   global.Board = Board ===
-    === =
+    ===
+    =
 
     //make it possible to test on backend
     if (typeof global !== 'undefined') {
       global.Game = Game >>>
-        >>> > 6424 b6c4856be8791698c643bd067aabe04fee9d
+        >>>
+        > 6424 b6c4856be8791698c643bd067aabe04fee9d
     };
