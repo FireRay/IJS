@@ -124,28 +124,32 @@ class Board {
       for (let col = 0; col < 7; col++) {
         for (let w of winOffset) {
           let slots = w.map(([r, c]) => this.matrix[row + r] && this.matrix[row + r][col + c]).join('');
-          currentSlot.push([row + r, col + c]);
+
           if (slots === '1111' || slots === '2222') {
+
+
+            for (let propWin of p) {
+              currentSlot.push([row + propWin[0], col + propWin[1]]);
+            }
+
             return {
-              winner: slots[0],
+              winner: +slots[0],
               combo: currentSlot
 
             }
 
           }
-          if (currentSlot.length == 3) {
-            currentSlot = [];
-          }
         }
-      }
-      if (this.matrix[0].findIndex(0) === -1) {
-        return {
-          winner: 'draw'
+
+
+        if (this.matrix[0].findIndex(0) === -1) {
+          return {
+            winner: 'draw'
+          }
         }
       }
     }
   }
-
   render() {
     for (let col = 0; col < 7; col++) {
       for (let row = 0; row < 6; row++) {
@@ -155,17 +159,18 @@ class Board {
         div.append(divEmpty);
         $('.board').append(div);
 
-
-        // $('board').appendChild(divEmpty);
-
-
       }
     }
-
-
   }
 
   markWin(combo) {
+
+    for (let arr of combo) {
+
+
+
+
+    }
 
 
 
