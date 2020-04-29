@@ -147,11 +147,11 @@ class Board {
   }
 
   render() {
-    for (let col = 0; col < 7; col++) {
-      for (let row = 0; row < 6; row++) {
+    for (let row = 0; row < 6; row++) {
+      for (let col = 0; col < 7; col++) {
         let div = document.createElement('div');
         let divEmpty = document.createElement('div');
-        (this.matrix[col][row] == 1) ? div.className = 'red': (this.matrix[col][row] == 2) ? div.className = 'yellow' : '';
+        (this.matrix[row][col] == 1) ? div.className = 'red': (this.matrix[row][col] == 2) ? div.className = 'yellow' : '';
         div.className += (col + 1) * (row + 1);
         div.append(divEmpty);
         $('.board').append(div);

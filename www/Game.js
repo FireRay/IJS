@@ -4,7 +4,6 @@ class Game {
     //call methods in following order.
     this.addEventListener();
     this.start();
-    this.over(3);
   }
 
   start() {
@@ -17,7 +16,8 @@ class Game {
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 
     //if value is 2 message changes it's content value to yellows turn 
-    (player === 1) ? $('.message').innerHTML('Röds tur...'): (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
+    $('.message').innerHTML = player === 1 ? 'Röds tur...' : 'Guls tur...';
+    // (player === 1) ? $('.message').innerHTML('Röds tur...'): (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
   }
 
   over(won) {
@@ -42,15 +42,14 @@ class Game {
 
   addEventListener() {
     this.againClick = event => {
-      let clickTarget = event.target();
-      if (!clickTarget) {
+      let againButton = event.target.closest('.again');
+      if (!againButton) {
         return;
-      } else if (clickTarget = '.again') {
-        this.start()
       }
-    };
-    $('.message').addEventListener('click', this.againClick());
-  };
+      this.start();
+    }
+    $('.message').addEventListener('click', this.againClick);
+  }
 }
 
 //make it possible to test on backend
