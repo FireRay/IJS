@@ -88,8 +88,6 @@ class Board {
 
   }
 
-
-
   winCheck() {
     let winOffset = [
       [
@@ -127,7 +125,6 @@ class Board {
 
           if (slots === '1111' || slots === '2222') {
 
-
             for (let propWin of p) {
               currentSlot.push([row + propWin[0], col + propWin[1]]);
             }
@@ -137,10 +134,8 @@ class Board {
               combo: currentSlot
 
             }
-
           }
         }
-
 
         if (this.matrix[0].findIndex(0) === -1) {
           return {
@@ -150,6 +145,7 @@ class Board {
       }
     }
   }
+
   render() {
     for (let col = 0; col < 7; col++) {
       for (let row = 0; row < 6; row++) {
@@ -167,14 +163,10 @@ class Board {
   markWin(combo) {
 
     for (let arr of combo) {
-
-
-
+      let classNumber = (arr[0] + 1) * (arr[1] + 1);
+      $(classNumber).className += "win";
 
     }
-
-
-
   }
 
   addEventListener() {
