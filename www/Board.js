@@ -152,7 +152,7 @@ class Board {
         let div = document.createElement('div');
         let divEmpty = document.createElement('div');
         (this.matrix[row][col] == 1) ? div.className = 'red': (this.matrix[row][col] == 2) ? div.className = 'yellow' : '';
-        div.className += (col + 1) * (row + 1);
+        div.className += ' ' + ((col + 1) + (row * 7));
         div.append(divEmpty);
         $('.board').append(div);
 
@@ -163,7 +163,7 @@ class Board {
   markWin(combo) {
 
     for (let arr of combo) {
-      let classNumber = (arr[0] + 1) * (arr[1] + 1);
+      let classNumber = (arr[0] + 1) + (arr[1] * 7);
       $(classNumber).className += "win";
 
     }
@@ -189,6 +189,6 @@ class Board {
 }
 
 //make it possible to test on backend
-/*if (typeof global !== 'undefined') {
+if (typeof global !== 'undefined') {
   global.Game = Game
-};*/
+};
