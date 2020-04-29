@@ -152,6 +152,7 @@ class Board {
         let div = document.createElement('div');
         let divEmpty = document.createElement('div');
         (this.matrix[col][row] == 1) ? div.className = 'red': (this.matrix[col][row] == 2) ? div.className = 'yellow' : '';
+        div.className += (col + 1) * (row + 1);
         div.append(divEmpty);
         $('.board').append(div);
 
