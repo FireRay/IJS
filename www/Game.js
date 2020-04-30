@@ -21,17 +21,15 @@ class Game {
   }
 
   over(won) {
-    if (won !== 'draw' || won !== 1 || won !== 2) {
-      throw 'won must be “draw”, 1 or 2'
-    }
+    console.log(won);
+
     //receive won as inarg
     //if won = 1 the DOM element should display 'Röd vann!'
     //if won = 2 the DOM element should display 'Gul vann!'
     //if won = 'draw' the DOM element should display 'Det blev oavgjort!'
-    (won === 1) ? $('.message').innerHTML('Röd vann!'):
-      (won === 2) ? $('.message').innerHTML('Gul vann') :
-      (won === 'draw') ? $('.message').innerHTML('Det blev oavgjort!') :
-      ('');
+    $('.message').innerHTML = won == 1 ?
+      'Röd vann!' : won == 2 ?
+      'Gul vann!' : won == 'draw' ? "Det blev oavgjort!" : "";
     //added a button to DOM-element with CSS-class message.
     //button had CSS-class again with text 'Spela igen'. 
     let btn = document.createElement('button');

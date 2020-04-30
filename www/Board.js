@@ -51,7 +51,7 @@ class Board {
     //call on sleep for 50ms
     await sleep(50);
     //check next row for brick
-    for (let i = 1; i < 5; i++) {
+    for (let i = 1; i < 6; i++) {
       if (this.matrix[i][column] == 0) {
         //if next row is empty, remove brick from current row
         this.matrix[i - 1].splice(column, 1, 0);
@@ -73,7 +73,7 @@ class Board {
         //call the markWin method with the combo attribute
         this.markWin(this.winCheck().combo)
       }
-      //call the game method over() with winner
+      //call the game over method over() with winner
       this.game.over(this.winCheck().winner)
       return true;
     }
@@ -124,20 +124,18 @@ class Board {
           let slots = w.map(([r, c]) => this.matrix[row + r] && this.matrix[row + r][col + c]).join('');
 
           if (slots === '1111' || slots === '2222') {
-
-            for (let propWin of p) {
+            for (let propWin of w) {
               currentSlot.push([row + propWin[0], col + propWin[1]]);
             }
 
             return {
-              winner: +slots[0],
+              winner: slots[0],
               combo: currentSlot
-
             }
           }
         }
 
-        if (this.matrix[0].findIndex(0) === -1) {
+        if (this.matrix[0].indexOf(0) === -1) {
           return {
             winner: 'draw'
           }
@@ -147,12 +145,14 @@ class Board {
   }
 
   render() {
+    $('.board').innerHTML = '';
     for (let row = 0; row < 6; row++) {
       for (let col = 0; col < 7; col++) {
         let div = document.createElement('div');
         let divEmpty = document.createElement('div');
         (this.matrix[row][col] == 1) ? div.className = 'red': (this.matrix[row][col] == 2) ? div.className = 'yellow' : '';
-        div.className += ' ' + ((col + 1) + (row * 7));
+        // lägger till vilket nummer diven har i class name
+        // div.className += ' ' + ((col + 1) + (row * 7)); 
         div.append(divEmpty);
         $('.board').append(div);
 
@@ -161,24 +161,24 @@ class Board {
   }
 
   markWin(combo) {
-
-    for (let arr of combo) {
-      let classNumber = (arr[0] + 1) + (arr[1] * 7);
-      $(classNumber).className += "win";
+    let allSlots = [...$$('.board > div ')];
+    for (let winSlot of combo) {
+      winSlot = (winSlot[1]) + (winSlot[0] * 7);
+      allSlots[winSlot].className += ' win';
 
     }
   }
 
   addEventListener() {
     this.listener = event => {
-      let $slot = event.target.closest('.board > div');
-      if (!$slot) {
+      let slot = event.target.closest('.board > div');
+      if (!slot) {
         return;
       }
-      let $allSlots = [...$$('.board > div ')];
-      let index = $allSlots.indexOf($slot);
+      let allSlots = [...$$('.board > div ')];
+      let index = allSlots.indexOf(slot);
       let column = index % 7;
-      return column;
+      return this.makeMove(column);
     };
     $('.board').addEventListener('click', this.listener);
   }
