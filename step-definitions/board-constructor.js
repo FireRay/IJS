@@ -8,7 +8,7 @@ module.exports = function () {
   let checkAddEventListener;
   let checkTellturn;
   let checkRender;
-  let testGame = new testGame1();
+  // let testGame = new testGame1();
 
 
   class testGame2 extends Board {
@@ -48,7 +48,6 @@ module.exports = function () {
   this.Then(/^the argument should be an instance of Game$/, function () {
     // Write code here that turns the phrase above into concrete actions
     expect(runGame.board.game).to.be.instanceof(Game, '');
-
   });
 
 
@@ -74,7 +73,9 @@ module.exports = function () {
   this.Given(/^that Board has a matrix property$/, function () {
     // Write code here that turns the phrase above into concrete actions
     runBoard = new Board();
-    expect(() => (({ runBoard })).to.have.property(this.matrix));
+    expect(() => (({
+      runBoard
+    })).to.have.property(this.matrix));
   });
 
 
@@ -89,8 +90,8 @@ module.exports = function () {
   this.Then(/^every element has the value zero$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    for (let i of matrix) {   // declaration of variable holding index of first arr of elements in matrix
-      for (let j of i) {      // declaration of variable holding index of second arr of elements in matrix
+    for (let i of matrix) { // declaration of variable holding index of first arr of elements in matrix
+      for (let j of i) { // declaration of variable holding index of second arr of elements in matrix
         expect(i, j).to.equal(0);
       }
 
@@ -137,7 +138,9 @@ module.exports = function () {
 
   this.Then(/^the tellTurns inargument should be currentPlayer property$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => (({ runGame })).to.have.property(this.currentPlayer));
+    expect(() => (({
+      runGame
+    })).to.have.property(this.currentPlayer));
 
   });
 

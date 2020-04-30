@@ -4,7 +4,6 @@ class Board {
 
     this.game = game;
 
-
     if (!game instanceof Game) {
 
       throw 'game must be an instance of Game';
@@ -57,4 +56,6 @@ class Board {
 }
 
 // make it possible to test on backend
-if (typeof global !== 'undefined') { global.Board = Board };
+if (typeof global !== 'undefined') {
+  global.Board = Board
+};

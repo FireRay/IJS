@@ -6,6 +6,6 @@ Feature: Call methods in constructor
   # 1
   Scenario: The game calls on 2 methods
     Given that the game starts
-    Then the constructor should first call addEventListener
-    And the constructor should call start
+    Then the constructor should call addEventListener and start in order
+
 

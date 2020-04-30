@@ -22,7 +22,7 @@ class Game {
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 
     //if value is 2 message changes it's content value to yellows turn 
-    (player === 1) ? $('.message').innerHTML('Röds tur...') : (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
+    (player === 1) ? $('.message').innerHTML('Röds tur...'): (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
 
 
   }
@@ -42,4 +42,6 @@ class Game {
 }
 
 // make it possible to test on backend
-if (typeof global !== 'undefined') { global.Game = Game };
+if (typeof global !== 'undefined') {
+  global.Game = Game
+};
