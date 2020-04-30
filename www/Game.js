@@ -21,7 +21,6 @@ class Game {
   }
 
   over(won) {
-    console.log(won);
 
     //receive won as inarg
     //if won = 1 the DOM element should display 'Röd vann!'
