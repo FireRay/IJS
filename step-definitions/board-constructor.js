@@ -62,27 +62,27 @@ module.exports = function () {
 
   this.Then(/^an error should display "([^"]*)"$/, function (expectedErrorMessage) {
     // Write code here that turns the phrase above into concrete actions
-
-
     expect(() => new Board({})).to.throw(Error, expectedErrorMessage, 'the error is not displayed correctly.');
-
-
   });
 
   // # 3
   this.Given(/^that Board has a matrix property$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    runBoard = new Board();
-    expect(() => (({
-      runBoard
-    })).to.have.property(this.matrix));
+    /* runBoard = new Board();
+     expect(() => (({
+       runBoard
+     })).to.have.property(this.apa));*/
+    expect(runGame.board).to.have.property('matrix')
   });
 
 
 
   this.When(/^the array has six elements that each stores seven elements$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(this.matrix).to.have.lengthOf(6);
+    expect(runGame.board.matrix).to.have.lengthOf(6);
+    for (let i of runGame.board.matrix) {
+      expect(i).to.have.lengthOf(7);
+    }
   });
 
 
@@ -90,9 +90,9 @@ module.exports = function () {
   this.Then(/^every element has the value zero$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    for (let i of matrix) { // declaration of variable holding index of first arr of elements in matrix
+    for (let i of runGame.board.matrix) { // declaration of variable holding index of first arr of elements in matrix
       for (let j of i) { // declaration of variable holding index of second arr of elements in matrix
-        expect(i, j).to.equal(0);
+        expect(j).to.equal(0);
       }
 
     }
@@ -106,20 +106,20 @@ module.exports = function () {
 
   this.Then(/^the default value of the currentPlayer property is one$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(currentPlayer).to.equal(1);
+    expect(runGame.board.currentPlayer).to.equal(1);
   });
 
 
 
   this.Then(/^the default value of the playInProgress property is false$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(playInProgress).to.equal(false);
+    expect(runGame.board.playInProgress).to.equal(false);
   });
 
   // # 5
   this.Given(/^that the Board constructor is called from the Game class$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    new testGame2(testGame);
+    expect()
 
   });
 

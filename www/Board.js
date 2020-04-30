@@ -2,17 +2,19 @@ class Board {
 
   constructor(game) {
 
-    this.game = game;
-
     if (!game instanceof Game) {
-
       throw 'game must be an instance of Game';
-
     }
-
-
-
-
+    this.matrix = [
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0]
+    ];
+    this.currentPlayer = 1;
+    this.playInProgress = false;
   }
 
   async makeMove(column) {
