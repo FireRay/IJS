@@ -12,7 +12,7 @@ class Game {
 
     //create new instance of board and sends current instance of Game to it's constructor. 
     //stores instance of Game in board var.
-    let board = new Board(this);
+    this.board = new Board(this);
 
   }
 

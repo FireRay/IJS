@@ -36,7 +36,7 @@ module.exports = function () {
   }
 
 
-
+  // # 1
   this.Given(/^that the constructor recieves an argument$/, function () {
     // Write code here that turns the phrase above into concrete actions
     runGame = new Game();
@@ -50,7 +50,7 @@ module.exports = function () {
     expect(runGame.board.game).to.be.instanceof(Game, '');
   });
 
-
+  // # 2
   this.Given(/^that the constructor argument is not a instance of Game$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
@@ -69,7 +69,7 @@ module.exports = function () {
 
   });
 
-
+  // # 3
   this.Given(/^that Board has a matrix property$/, function () {
     // Write code here that turns the phrase above into concrete actions
     runBoard = new Board();
@@ -98,7 +98,7 @@ module.exports = function () {
     }
 
   });
-
+  // # 4
   this.Given(/^that the game has a board$/, function () {
     // Write code here that turns the phrase above into concrete actions
     new Board();
@@ -116,6 +116,7 @@ module.exports = function () {
     expect(playInProgress).to.equal(false);
   });
 
+  // # 5
   this.Given(/^that the Board constructor is called from the Game class$/, function () {
     // Write code here that turns the phrase above into concrete actions
     new testGame2(testGame);
@@ -130,6 +131,7 @@ module.exports = function () {
 
   });
 
+  // # 6
   this.Given(/^that the tellTurn method in being called$/, function () {
     // Write code here that turns the phrase above into concrete actions
     game = new testGame2();
