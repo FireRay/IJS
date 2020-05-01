@@ -2,38 +2,38 @@ require('./_include-all')();
 
 module.exports = function () {
 
-
   let runGame;
-  let runBoard;
-  let checkAddEventListener;
-  let checkTellturn;
-  let checkRender;
-  // let testGame = new testGame1();
+  let order = [];
 
+  // let testGame = new testGame1();
 
   class testGame2 extends Board {
 
     constructor(game) {
-      this.currentPlayer = 1;
-    }
+      super(game);
 
+      addEventListener()
 
-    addEventListener() {
-      checkAddEventListener = true;
+      {
+        order.push(1);
+      }
 
-    }
+      render()
 
-    render() {
+      {
+        order.push(2);
+      }
 
-      checkRender = true;
-    }
+      tellTurn(player)
 
-    tellTurn(player) {
-      checkTellturn = true;
+      {
+        order.push(3);
 
+      }
     }
 
   }
+
 
 
   // # 1
@@ -117,19 +117,19 @@ module.exports = function () {
   });
 
   // # 5
-  this.Given(/^that the Board constructor is called from the Game class$/, function () {
+  this.Given(/^that the Board constructor is called$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect()
-
+    new testGame2();
   });
+
 
   this.Then(/^addEventListener, render, tellTurn should be called in the stated order$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(checkAddEventListener, 'the AddEventListener-method is not called in the constructor').to.be.true;
-    expect(checkTellturn, 'the tellTurn-method is not called in the constructor').to.be.true;
-    expect(checkRender, 'the render-method is not called in the constructor').to.be.true;
-
+    expect(order).to.eql([1, 2, 3]);
   });
+
+
+
 
   // # 6
   this.Given(/^that the tellTurn method in being called$/, function () {

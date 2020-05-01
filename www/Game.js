@@ -6,6 +6,7 @@ class Game {
     this.addEventListener();
     this.start();
 
+
   }
 
   start() {
@@ -18,6 +19,8 @@ class Game {
 
 
   tellTurn(player) {
+
+
 
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 

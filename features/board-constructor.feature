@@ -27,7 +27,7 @@ Feature: The Board class constructor
 
   # 5
   Scenario:The Board constructor call to methods
-    Given that the Board constructor is called from the Game class
+    Given that the Board constructor is called
     Then addEventListener, render, tellTurn should be called in the stated order
 
   # 6

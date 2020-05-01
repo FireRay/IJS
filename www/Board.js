@@ -5,6 +5,11 @@ class Board {
     if (!game instanceof Game) {
       throw 'game must be an instance of Game';
     }
+
+
+
+
+
     this.matrix = [
       [0, 0, 0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0, 0, 0],
@@ -15,6 +20,14 @@ class Board {
     ];
     this.currentPlayer = 1;
     this.playInProgress = false;
+    this.game = game;
+
+    this.addEventListener();
+    this.render();
+    game.tellTurn(this.currentPlayer);
+
+
+
   }
 
   async makeMove(column) {
