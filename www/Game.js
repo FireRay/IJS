@@ -25,8 +25,7 @@ class Game {
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 
     //if value is 2 message changes it's content value to yellows turn 
-    (player === 1) ? $('.message').innerHTML('Röds tur...'): (player === 2) ? $('.message').innerHTML('Guls tur...') : ('');
-
+    ($('.message').innerHTML = player === 1) ? 'Röds tur...' : (player === 2) ? 'Guls tur...' : '';
 
   }
 

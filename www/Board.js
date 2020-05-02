@@ -7,9 +7,6 @@ class Board {
     }
 
 
-
-
-
     this.matrix = [
       [0, 0, 0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0, 0, 0],
@@ -22,9 +19,9 @@ class Board {
     this.playInProgress = false;
     this.game = game;
 
-    this.addEventListener();
-    this.render();
-    game.tellTurn(this.currentPlayer);
+
+
+
 
 
 

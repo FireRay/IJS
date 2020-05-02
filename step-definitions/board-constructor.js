@@ -12,27 +12,36 @@ module.exports = function () {
     constructor(game) {
       super(game);
 
-      addEventListener()
+      let accessGame = new Game();
+      let player = 1;
+
+      /*this.addEventListener();
+      this.render();
+      accessGame.tellTurn(player);*/
+
+
+      this.addEventListener()
 
       {
         order.push(1);
       }
 
-      render()
+      this.render()
 
       {
         order.push(2);
       }
 
-      tellTurn(player)
+      accessGame.tellTurn(player)
 
       {
         order.push(3);
 
       }
     }
-
   }
+
+
 
 
 
