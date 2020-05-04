@@ -5,6 +5,7 @@ class Game {
     //call methods in following order.
     this.addEventListener();
     this.start();
+    this.startTellturn = false;
 
 
   }
@@ -20,7 +21,7 @@ class Game {
 
   tellTurn(player) {
 
-
+    this.startTellturn = true;
 
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 

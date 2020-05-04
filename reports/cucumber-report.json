@@ -14,11 +14,11 @@
             "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 493900
+              "duration": 459501
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:49"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:54"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "the argument should be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 444401
+              "duration": 424099
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:57"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:62"
             }
           },
           {
@@ -39,7 +39,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2318077500
+              "duration": 1734730500
             },
             "hidden": true,
             "match": {
@@ -62,11 +62,11 @@
             "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 83599
+              "duration": 115000
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:63"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:68"
             }
           },
           {
@@ -75,12 +75,12 @@
             "name": "an error should display \"game must be an instance of Game\"",
             "result": {
               "status": "failed",
-              "duration": 1916399,
-              "error_message": "AssertionError: the error is not displayed correctly.: expected [Function] to throw Error\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:74:41)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 123400,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
             },
             "line": 14,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:72"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:75"
             }
           },
           {
@@ -88,7 +88,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2232291501
+              "duration": 2190128600
             },
             "hidden": true,
             "embeddings": [
@@ -117,11 +117,11 @@
             "name": "that Board has a matrix property",
             "result": {
               "status": "passed",
-              "duration": 502000
+              "duration": 875300
             },
             "line": 18,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:78"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:82"
             }
           },
           {
@@ -130,11 +130,11 @@
             "name": "the array has six elements that each stores seven elements",
             "result": {
               "status": "passed",
-              "duration": 320300
+              "duration": 508001
             },
             "line": 19,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:89"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:93"
             }
           },
           {
@@ -143,11 +143,11 @@
             "name": "every element has the value zero",
             "result": {
               "status": "passed",
-              "duration": 305899
+              "duration": 579600
             },
             "line": 20,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:99"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:103"
             }
           },
           {
@@ -155,7 +155,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2105772700
+              "duration": 1574936399
             },
             "hidden": true,
             "match": {
@@ -178,11 +178,11 @@
             "name": "that the game has a board",
             "result": {
               "status": "passed",
-              "duration": 117901
+              "duration": 169199
             },
             "line": 24,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:111"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:115"
             }
           },
           {
@@ -191,11 +191,11 @@
             "name": "the default value of the currentPlayer property is one",
             "result": {
               "status": "passed",
-              "duration": 185000
+              "duration": 113401
             },
             "line": 25,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:116"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:120"
             }
           },
           {
@@ -204,11 +204,11 @@
             "name": "the default value of the playInProgress property is false",
             "result": {
               "status": "passed",
-              "duration": 256601
+              "duration": 159901
             },
             "line": 26,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:123"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:127"
             }
           },
           {
@@ -216,7 +216,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2117876400
+              "duration": 2160610799
             },
             "hidden": true,
             "match": {
@@ -239,11 +239,11 @@
             "name": "that the Board constructor is called",
             "result": {
               "status": "passed",
-              "duration": 12350700
+              "duration": 21775600
             },
             "line": 30,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:129"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:133"
             }
           },
           {
@@ -252,11 +252,11 @@
             "name": "addEventListener, render, tellTurn should be called in the stated order",
             "result": {
               "status": "passed",
-              "duration": 553000
+              "duration": 519000
             },
             "line": 31,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:135"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:139"
             }
           },
           {
@@ -264,7 +264,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2109189500
+              "duration": 1591646200
             },
             "hidden": true,
             "match": {
@@ -286,13 +286,12 @@
             "keyword": "Given ",
             "name": "that the tellTurn method in being called",
             "result": {
-              "status": "failed",
-              "duration": 1550901,
-              "error_message": "ReferenceError: player is not defined\n    at createWorld.<anonymous> (C:\\Users\\Jonas Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:147:29)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "passed",
+              "duration": 424601
             },
             "line": 35,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:144"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:148"
             }
           },
           {
@@ -300,11 +299,12 @@
             "keyword": "Then ",
             "name": "the tellTurns inargument should be currentPlayer property",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 486500
             },
             "line": 36,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:150"
+              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:156"
             }
           },
           {
@@ -312,15 +312,9 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1663010101
+              "duration": 2126412400
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
               "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
