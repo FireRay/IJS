@@ -74,7 +74,7 @@ module.exports = function () {
 
   this.Then(/^an error should display "([^"]*)"$/, function (errorMessage) {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => board.game()).to.throw(errorMessage);
+    expect(() => board.game.to.throw(errorMessage));
   });
 
 
