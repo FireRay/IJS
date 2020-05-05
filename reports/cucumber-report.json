@@ -1,5 +1,330 @@
 [
   {
+    "description": "  The user must be able to play Connect 4\n  I need the Board class to call the Game class\n  So I can play the game.",
+    "elements": [
+      {
+        "id": "the-board-class-constructor;the-constructor-recieves-an-instance-of-game",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "The Constructor recieves an instance of Game",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the constructor recieves an argument",
+            "result": {
+              "status": "passed",
+              "duration": 314600
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the argument should be an instance of Game",
+            "result": {
+              "status": "passed",
+              "duration": 332501
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1586506100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-constructor-should-throw-an-error-message",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "The Constructor should throw an error message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the constructor argument is not a instance of Game",
+            "result": {
+              "status": "passed",
+              "duration": 65799
+            },
+            "line": 13,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "an error should display \"game must be an instance of Game\"",
+            "result": {
+              "status": "passed",
+              "duration": 131800
+            },
+            "line": 14,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1536006200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-elements-of-the-matrix-board",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The elements of the Matrix board",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that Board has a matrix property",
+            "result": {
+              "status": "passed",
+              "duration": 671200
+            },
+            "line": 18,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:82"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the array has six elements that each stores seven elements",
+            "result": {
+              "status": "passed",
+              "duration": 311100
+            },
+            "line": 19,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "every element has the value zero",
+            "result": {
+              "status": "passed",
+              "duration": 469100
+            },
+            "line": 20,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1527138001
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-properties-default-settings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "The Board properties default settings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has a board",
+            "result": {
+              "status": "passed",
+              "duration": 109801
+            },
+            "line": 24,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the default value of the currentPlayer property is one",
+            "result": {
+              "status": "passed",
+              "duration": 80800
+            },
+            "line": 25,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the default value of the playInProgress property is false",
+            "result": {
+              "status": "passed",
+              "duration": 114601
+            },
+            "line": 26,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:127"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1539446600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-constructor-call-to-methods",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "The Board constructor call to methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the Board constructor is called",
+            "result": {
+              "status": "passed",
+              "duration": 11139801
+            },
+            "line": 30,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "addEventListener, render, tellTurn should be called in the stated order",
+            "result": {
+              "status": "passed",
+              "duration": 397100
+            },
+            "line": 31,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:139"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1526810300
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-call-to-tellturns-inargument",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The call to tellTurns inargument",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the tellTurn method in being called",
+            "result": {
+              "status": "passed",
+              "duration": 118700
+            },
+            "line": 35,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the tellTurns inargument should be currentPlayer property",
+            "result": {
+              "status": "passed",
+              "duration": 70399
+            },
+            "line": 36,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:156"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1527921499
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "the-board-class-constructor",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "The Board class constructor",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-constructor.feature"
+  },
+  {
     "description": "  As a competetive connect 4 player\n  I want to know if someone has won\n  So I crush my enemies",
     "elements": [
       {
@@ -14,7 +339,7 @@
             "name": "that the a player has won",
             "result": {
               "status": "passed",
-              "duration": 318599
+              "duration": 99800
             },
             "line": 7,
             "match": {
@@ -27,8 +352,8 @@
             "name": "winCheck() returns an object with the winner and combo attribute",
             "result": {
               "status": "failed",
-              "duration": 472100,
-              "error_message": "TypeError: Cannot use 'in' operator to search for 'winner' in false\n    at Object.hasProperty (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\node_modules\\chai\\lib\\chai\\utils\\hasProperty.js:63:15)\n    at Assertion.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\node_modules\\chai\\lib\\chai\\core\\assertions.js:887:13)\n    at Assertion.ctx.<computed> [as property] (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\node_modules\\chai\\lib\\chai\\utils\\addMethod.js:41:25)\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:24:29)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 277000,
+              "error_message": "TypeError: Cannot read property 'winner' of undefined\n    at Assertion.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\node_modules\\chai\\lib\\chai\\core\\assertions.js:890:14)\n    at Assertion.ctx.<computed> [as property] (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\node_modules\\chai\\lib\\chai\\utils\\addMethod.js:41:25)\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:24:29)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 8,
             "match": {
@@ -40,7 +365,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1666742699
+              "duration": 1608375601
             },
             "hidden": true,
             "embeddings": [
@@ -69,7 +394,7 @@
             "name": "that someone has won",
             "result": {
               "status": "passed",
-              "duration": 99501
+              "duration": 63800
             },
             "line": 11,
             "match": {
@@ -82,8 +407,8 @@
             "name": "the winner attribute of the winCheck() return value should be one / two",
             "result": {
               "status": "failed",
-              "duration": 1413200,
-              "error_message": "AssertionError: expected undefined to be one of [ 1, 2 ]\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:36:34)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 99399,
+              "error_message": "TypeError: Cannot read property 'winner' of undefined\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:36:20)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 12,
             "match": {
@@ -95,7 +420,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1607061900
+              "duration": 1609682400
             },
             "hidden": true,
             "embeddings": [
@@ -124,7 +449,7 @@
             "name": "that the outcome of the game is a tie",
             "result": {
               "status": "passed",
-              "duration": 94299
+              "duration": 120501
             },
             "line": 15,
             "match": {
@@ -137,8 +462,8 @@
             "name": "the winner attribute of the winCheck() return value should be 'draw'",
             "result": {
               "status": "failed",
-              "duration": 309400,
-              "error_message": "AssertionError: expected undefined to equal 'draw'\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:56:34)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "duration": 105201,
+              "error_message": "TypeError: Cannot read property 'winner' of undefined\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:56:20)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 16,
             "match": {
@@ -150,7 +475,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1608655700
+              "duration": 1606767200
             },
             "hidden": true,
             "embeddings": [
@@ -179,7 +504,7 @@
             "name": "that neither of player has won and the game isn't a tie",
             "result": {
               "status": "passed",
-              "duration": 91800
+              "duration": 85999
             },
             "line": 19,
             "match": {
@@ -191,8 +516,9 @@
             "keyword": "Then ",
             "name": "winCheck() should return the value false",
             "result": {
-              "status": "passed",
-              "duration": 112899
+              "status": "failed",
+              "duration": 421299,
+              "error_message": "AssertionError: expected undefined to be false\n    at createWorld.<anonymous> (C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\step-definitions\\board-winCheck.js:75:26)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 20,
             "match": {
@@ -204,9 +530,15 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1528232200
+              "duration": 1606068601
             },
             "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
             "match": {
               "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
@@ -221,6 +553,295 @@
     "line": 1,
     "name": "A method that checks if the board has won",
     "tags": [],
-    "uri": "C:\\Users\\gamea\\OneDrive\\Desktop\\Gruppuppgift Test\\Uppgift 1\\IJS\\features\\board-winCheck.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-winCheck.feature"
+  },
+  {
+    "description": "  As a Connect 4 player user\n  I want to know when I have clicked a button\n  So I know that I can play.",
+    "elements": [
+      {
+        "id": "notification-when-a-button-in-clicked;clicked-a-button",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Clicked a button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the method addEventListeners has an EventListener with a click event",
+            "result": {
+              "status": "passed",
+              "duration": 65599
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.feature.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the start method should be called.",
+            "result": {
+              "status": "passed",
+              "duration": 75801
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.feature.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1527757201
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "notification-when-a-button-in-clicked",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Notification when a button in clicked",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-addEventListener.feature"
+  },
+  {
+    "description": "  As a gamer\n  I want the constructor to call on the methods\n  So I can play the game.",
+    "elements": [
+      {
+        "id": "call-methods-in-constructor;the-game-calls-on-2-methods",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "The game calls on 2 methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game starts",
+            "result": {
+              "status": "passed",
+              "duration": 127500
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the constructor should call addEventListener and start in order",
+            "result": {
+              "status": "passed",
+              "duration": 2187300
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1531218800
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "call-methods-in-constructor",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Call methods in constructor",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-constructor.feature"
+  },
+  {
+    "description": "  As a Conncet 4 player\n  I want to know what's going on in the game\n  So I know what I should do next.",
+    "elements": [
+      {
+        "id": "display-message;the-.message-element-should-display-who's-turn-it-is",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "The .message element should display who's turn it is",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that a game is still in play",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element should display a text of who's turn it is",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1530319700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "display-message;draw-message",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Draw message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game ends in a draw",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element displays `Det blev oavgjort!`",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1528457900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "display-message;red-wins-message",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Red wins message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that red has won",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element displays `Röd vann!`",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1525850900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "display-message;yellow-wins-message",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Yellow wins message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that yellow has won",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element displays `Gul vann!`",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1530050701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "display-message",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Display message",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/message-div.feature"
   }
 ]

@@ -3,7 +3,9 @@ require('./_include-all')();
 module.exports = function () {
 
   let runGame;
+  let runBoard;
   let order = [];
+  let startTellturn = false;
 
   // let testGame = new testGame1();
 
@@ -14,6 +16,7 @@ module.exports = function () {
 
       let accessGame = new Game();
       let player = 1;
+
 
       /*this.addEventListener();
       this.render();
@@ -35,7 +38,9 @@ module.exports = function () {
       accessGame.tellTurn(player)
 
       {
+        startTellturn = true;
         order.push(3);
+
 
       }
     }
@@ -67,12 +72,11 @@ module.exports = function () {
 
   });
 
-
-
-  this.Then(/^an error should display "([^"]*)"$/, function (expectedErrorMessage) {
+  this.Then(/^an error should display "([^"]*)"$/, function (errorMessage) {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => new Board({})).to.throw(Error, expectedErrorMessage, 'the error is not displayed correctly.');
+    expect(() => board.game.to.throw(errorMessage));
   });
+
 
   // # 3
   this.Given(/^that Board has a matrix property$/, function () {
@@ -143,15 +147,17 @@ module.exports = function () {
   // # 6
   this.Given(/^that the tellTurn method in being called$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    game = new testGame2();
-    runGame = game.tellTurn(player);
+    //runGame = new testGame2();
+
+    expect(startTellturn).to.be.true;
+
   });
 
   this.Then(/^the tellTurns inargument should be currentPlayer property$/, function () {
     // Write code here that turns the phrase above into concrete actions
     expect(() => (({
-      runGame
-    })).to.have.property(this.currentPlayer));
+      runBoard
+    })).to.have.property('player'));
 
   });
 
