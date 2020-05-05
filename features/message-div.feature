@@ -1,4 +1,5 @@
 
+// MOVE THESE SCENARIOS TO YOUR game.tellTurn(player) FEATURES AND Game.over() FEATURES
 
 Feature: Display message
   As a Conncet 4 player
