@@ -13,11 +13,11 @@
             "name": "that one of the players has won",
             "result": {
               "status": "passed",
-              "duration": 291699
+              "duration": 13358000
             },
             "line": 4,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:6"
+              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:8"
             }
           },
           {
@@ -26,11 +26,11 @@
             "name": "the method markWin(combo) recieves the argument combo",
             "result": {
               "status": "passed",
-              "duration": 89800
+              "duration": 2582100
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:9"
+              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:20"
             }
           },
           {
@@ -39,11 +39,11 @@
             "name": "adds the css-class win to each one of the div-element.",
             "result": {
               "status": "passed",
-              "duration": 106200
+              "duration": 1022200
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:12"
+              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\board.markwin.js:24"
             }
           },
           {
@@ -51,7 +51,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2483890500
+              "duration": 2432037801
             },
             "hidden": true,
             "match": {
