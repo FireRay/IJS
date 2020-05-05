@@ -20,7 +20,7 @@ class Game {
 
 
   tellTurn(player) {
-    if (player == 3) {
+    if (!(player === 1 || player === 2)) {
       throw "player must be 1 or 2"
     }
     this.startTellturn = true;

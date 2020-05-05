@@ -6,11 +6,12 @@ module.exports = function () {
   // # 1
   this.Given(/^the taken argument is not one or two$/, function () {
     // Write code here that turns the phrase above into concrete actions  
+    testGame = new Game();
   });
 
-  this.Then(/^it should throw "([^"]*)"$/, function (ErrorMessage) {
+  this.Then(/^it should throw "([^"]*)"$/, function (expectedErrorMessage) {
     // Write code here that turns the phrase above into concrete actions  
-    expect(() => game.tellTurn().to.throw(Error, ErrorMessage));
+    expect(() => testGame.tellTurn(3)).to.throw(expectedErrorMessage);
 
   });
 
