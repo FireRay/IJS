@@ -13,6 +13,9 @@ class Game {
   }
 
   tellTurn(player) {
+    if (!(player === 1 || player === 2)) {
+      throw "player must be 1 or 2"
+    }
     //methods that receives inagrument 1 or 2 in player
     //if value is 1 message changes it's content value to reds turn 
     //if value is 2 message changes it's content value to yellows turn 
