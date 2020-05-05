@@ -2,7 +2,7 @@ class Board {
 
   constructor(game) {
     //game must be an instance of the class Game
-    if (!game instanceof Game) {
+    if (!(game instanceof Game)) {
       throw 'game must be an instance of Game';
     }
 
