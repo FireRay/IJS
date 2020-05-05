@@ -2,7 +2,7 @@ class Board {
 
   constructor(game) {
 
-    if (!game instanceof Game) {
+    if (!(game instanceof Game)) {
       throw 'game must be an instance of Game';
     }
 
@@ -28,7 +28,7 @@ class Board {
   }
 
   async makeMove(column) {
-
+    this.game.tellTurn();
 
 
   }

@@ -9,7 +9,17 @@ module.exports = function () {
 
   // let testGame = new testGame1();
 
-  class testGame2 extends Board {
+  class testGame2 extends Game {
+    start() {
+
+      //create new instance of board and sends current instance of Game to it's constructor. 
+      //stores instance of Game in board var.
+      this.board = new testBoard2(this);
+
+    }
+  }
+
+  class testBoard2 extends Board {
 
     constructor(game) {
       super(game);
@@ -72,9 +82,9 @@ module.exports = function () {
 
   });
 
-  this.Then(/^an error should display "([^"]*)"$/, function (errorMessage) {
+  this.Then(/^an error should display "([^"]*)"$/, function (expectedErrorMessage) {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => board.game.to.throw(errorMessage));
+    expect(() => new Board('hej')).to.throw(expectedErrorMessage);
   });
 
 
@@ -114,7 +124,7 @@ module.exports = function () {
   // # 4
   this.Given(/^that the game has a board$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    new Board();
+    new Board(runGame);
   });
 
   this.Then(/^the default value of the currentPlayer property is one$/, function () {
@@ -132,7 +142,7 @@ module.exports = function () {
   // # 5
   this.Given(/^that the Board constructor is called$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    new testGame2();
+    runGame = new testGame2();
   });
 
 

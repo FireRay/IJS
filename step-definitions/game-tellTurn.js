@@ -10,7 +10,7 @@ module.exports = function () {
 
   this.Then(/^it should throw "([^"]*)"$/, function (ErrorMessage) {
     // Write code here that turns the phrase above into concrete actions  
-    expect(() => game.tellTurn().to.throw(ErrorMessage));
+    expect(() => game.tellTurn().to.throw(Error, ErrorMessage));
 
   });
 
