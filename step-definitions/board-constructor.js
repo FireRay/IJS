@@ -68,7 +68,7 @@ module.exports = function () {
   this.Given(/^that the constructor argument is not a instance of Game$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    //cannot test this. 
+    //this test is done below
 
   });
 
