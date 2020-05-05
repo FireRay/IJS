@@ -20,7 +20,9 @@ class Game {
 
 
   tellTurn(player) {
-
+    if (player == 3) {
+      throw "player must be 1 or 2"
+    }
     this.startTellturn = true;
 
     //methods that receives inagrument 1 or 2 in player
