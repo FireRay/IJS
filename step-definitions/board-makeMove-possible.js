@@ -1,4 +1,5 @@
 require('./_include-all')();
+require('./_async-helpers.js');
 
 module.exports = function () {
 
@@ -72,11 +73,11 @@ module.exports = function () {
 
 
   // # 2
-  this.Given(/^the move was possible and that currentPlayer is one$/, function () {
+  this.Given(/^the move was possible and that currentPlayer is one$/, async function () {
     // Write code here that turns the phrase above into concrete actions
     runGame = new Game();
     runGame.board.currentPlayer = 1;
-    runGame.board.makeMove(4);
+    await runGame.board.makeMove(4);
 
 
   });
@@ -85,16 +86,16 @@ module.exports = function () {
   // # 2
   this.Then(/^currentPlayer should be set to two$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(runGame.board.currentPlayer).to.eql(2);
+    expect(runGame.board.currentPlayer).to.equal(2);
   });
 
 
   // # 3
-  this.Given(/^the move was possible and that currentPlayer is two$/, function () {
+  this.Given(/^the move was possible and that currentPlayer is two$/, async function () {
     // Write code here that turns the phrase above into concrete actions
     runGame = new Game();
     runGame.board.currentPlayer = 2;
-    runGame.board.makeMove(4);
+    await runGame.board.makeMove(4);
 
   });
 
@@ -152,10 +153,10 @@ module.exports = function () {
 
 
   // # 6
-  this.Then(/^in the end makeMove returns true$/, function () {
+  this.Then(/^in the end makeMove returns true$/, async function () {
     // Write code here that turns the phrase above into concrete actions
 
-    expect(runGame.board.makeMove(3)).to.be.true;
+    expect(await runGame.board.makeMove(3)).to.be.true;
 
   });
 
