@@ -83,8 +83,11 @@ class Board {
             winner: 'draw'
           }
         }
+
       }
+
     }
+    return false;
   }
 
   render() {
