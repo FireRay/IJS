@@ -2,8 +2,7 @@ require('./_include-all')();
 
 module.exports = function () {
 
-  let runTestBoard;
-  let runBoard;
+
   let runGame;
   let startRender = false;
   let overValue;
@@ -24,7 +23,7 @@ module.exports = function () {
     start()
 
     {
-      this.board = new testClass();
+      this.board = new testClass(this);
     }
 
 
@@ -37,7 +36,6 @@ module.exports = function () {
     constructor(game) {
       super(game);
 
-      let accessGame = new Game();
 
 
     }
@@ -57,6 +55,9 @@ module.exports = function () {
   // # 1
   this.Given(/^that makeMove is possible$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    let runGameTest = new testGame();
+
 
   });
 
@@ -154,7 +155,7 @@ module.exports = function () {
   this.Then(/^in the end makeMove returns true$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    expect(runGame.board.makeMove()).to.be.true;
+    expect(runGame.board.makeMove(3)).to.be.true;
 
   });
 
