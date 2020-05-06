@@ -1,4 +1,5 @@
 require('./_include-all')();
+require('./_async-helpers.js');
 
 module.exports = function () {
   let testGame;
@@ -8,9 +9,9 @@ module.exports = function () {
     testGame = new Game();
   });
 
-  this.Then(/^it should throw an error saying "([^"]*)"$/, function (expectedErrorMessage) {
+  this.Then(/^it should throw an error saying "([^"]*)"$/, async function (expectedErrorMessage) {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => testGame.makeMove(7)).to.throw(expectedErrorMessage);
+    expect(await testGame.board.makeMove(7)).to.throw(expectedErrorMessage);
   });
 
   // # 2
