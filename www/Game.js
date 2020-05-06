@@ -24,8 +24,8 @@ class Game {
   }
 
   over(won) {
-
-    if (!(won === 1 || won === 2 || won === 'draw')) {
+    console.log(won)
+    if (!(won == 1 || won == 2 || won === 'draw')) {
       throw 'won must be “draw”, 1 or 2';
     }
 
