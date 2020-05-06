@@ -142,6 +142,7 @@ class Board {
         }
       }
     }
+    return false
   }
 
   render() {
