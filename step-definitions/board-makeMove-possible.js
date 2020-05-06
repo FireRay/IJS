@@ -2,6 +2,32 @@ require('./_include-all')();
 
 module.exports = function () {
 
+  let runBoard;
+  let startRender = false;
+
+
+  class testClass extends Board {
+
+
+    constructor(game) {
+      super(game);
+
+      this.render()
+
+      {
+        startRender = true;
+      }
+
+
+
+    }
+
+
+
+
+  }
+
+
 
 
   //# 1
@@ -15,6 +41,8 @@ module.exports = function () {
 
   this.Then(/^playInProgress should be set to true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runBoard = new Board();
+    expect(runBoard.makeMove.playInProgress).to.equal(true);
 
   });
 
@@ -29,6 +57,8 @@ module.exports = function () {
   this.Then(/^the board method render should be called$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
+    expect(startRender).to.be.true;
+
   });
 
 
@@ -36,12 +66,15 @@ module.exports = function () {
   this.Given(/^the move was possible and that currentPlayer is two$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
+
   });
 
 
   //# 3
   this.Then(/^currentPlayer should be set to one$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+
 
   });
 

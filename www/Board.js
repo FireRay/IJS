@@ -27,6 +27,7 @@ class Board {
 
   async makeMove(column) {
     this.game.tellTurn();
+    this.playInProgress = true;
 
 
   }
