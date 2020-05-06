@@ -30,7 +30,7 @@ module.exports = function () {
 
   this.Then(/^a message displaying “Det blev oavgjort!”$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect($('.message').innerHTML).to.equal('Det blev oavgjort!');
+    expect($('.message').innerHTML).to.include('Det blev oavgjort!');
 
   });
 
@@ -45,7 +45,7 @@ module.exports = function () {
 
   this.Then(/^a message displaying the winner Röd vann!$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect($('.message').innerHTML).to.equal('Röd vann!');
+    expect($('.message').innerHTML).to.include('Röd vann!');
 
   });
 
@@ -60,7 +60,7 @@ module.exports = function () {
 
   this.Then(/^a message displaying the winner Gul vann!$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect($('.message').innerHTML).to.equal('Gul vann!');
+    expect($('.message').innerHTML).to.include('Gul vann!');
 
   });
 
