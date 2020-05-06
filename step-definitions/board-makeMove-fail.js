@@ -9,9 +9,9 @@ module.exports = function () {
     testGame = new Game();
   });
 
-  this.Then(/^it should throw an error saying "([^"]*)"$/, async function (expectedErrorMessage) {
+  this.Then(/^it should throw an error saying "([^"]*)"$/, async function (Error) {
     // Write code here that turns the phrase above into concrete actions
-    expect(await testGame.board.makeMove(7)).to.throw(expectedErrorMessage);
+    expect(await testGame.board.makeMove(7).throwCheck).to.throw(Error, 'column must be an integer between 0 and 6', 'Expected to throw error');
   });
 
   // # 2
