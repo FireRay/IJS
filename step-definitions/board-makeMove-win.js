@@ -1,31 +1,29 @@
-// # 1
-this.Given(/^that method winCheck returns something truthy$/, function () {
-});
+require('./_include-all')();
 
-// # 2
-this.Then(/^makeMove should call removeEventListener$/, function () {
-});
+module.exports = function () {
 
-// # 3
-this.Given(/^that winCheck returns an object with a combo attribute$/, function () {
-});
+  // # 1
+  this.Given(/^that method winCheck returns something truthy$/, function () {});
 
-// # 4
-this.Then(/^the markWin method should be called with the combo value as argument$/, function () {
-});
+  // # 2
+  this.Then(/^makeMove should call removeEventListener$/, function () {});
 
-// # 5
-this.Then(/^winCheck should return true$/, function () {
-});
+  // # 3
+  this.Given(/^that winCheck returns an object with a combo attribute$/, function () {});
 
-// # 6
-this.Given(/^that winCheck returns an object with a winner attribute$/, function () {
-});
+  // # 4
+  this.Then(/^the markWin method should be called with the combo value as argument$/, function () {});
 
-// # 7
-this.Then(/^the over method should be called with winner value as argument$/, function () {
-});
+  // # 5
+  this.Then(/^winCheck should return true$/, function () {});
 
-// # 8
-this.Then(/^winCheck should return true$/, function () {
-});
+  // # 6
+  this.Given(/^that winCheck returns an object with a winner attribute$/, function () {});
+
+  // # 7
+  this.Then(/^the over method should be called with winner value as argument$/, function () {});
+
+  // # 8
+  this.Then(/^winCheck should return true$/, function () {});
+
+}
