@@ -14,7 +14,7 @@ Feature: When making a move is possible
   Scenario: Set currentPlayer to one
     Given the move was possible and that currentPlayer is two
     Then currentPlayer should be set to one
-  # 3
+  # 4
   Scenario: Set currentPlayer to two
     Given the move was possible and that currentPlayer is two
     Then currentPlayer should be set to one

@@ -2,7 +2,9 @@ require('./_include-all')();
 
 module.exports = function () {
 
+  let runTestBoard;
   let runBoard;
+  let runGame;
   let startRender = false;
 
 
@@ -19,9 +21,7 @@ module.exports = function () {
       }
 
 
-
     }
-
 
 
 
@@ -50,6 +50,8 @@ module.exports = function () {
   //# 2
   this.Given(/^that makeMove is possible$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runTestBoard = new testClass();
+    expect(makeMove()).to.not.throw();
 
   });
 
@@ -74,7 +76,7 @@ module.exports = function () {
   this.Then(/^currentPlayer should be set to one$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-
+    expect(runBoard.makeMove.currentPlayer).to.eql(2);
 
   });
 
@@ -90,6 +92,10 @@ module.exports = function () {
   //# 4
   this.Then(/^the tellTurn method should be called with the currentPlayer as argument$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runGame = new Board();
+    expect(() => (({
+      tellTurn(player)
+    })).to.have.property('this.currentPlayer'));
 
   });
 
@@ -103,6 +109,9 @@ module.exports = function () {
   //# 5
   this.Then(/^it should set playInProgress to true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runBoard = new Board();
+    expect(runBoard.makeMove.playInProgress).to.equal(true);
+
 
   });
 
@@ -116,6 +125,9 @@ module.exports = function () {
   ///# 6
   this.Then(/^in the end makeMove returns true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    expect()
+
 
   });
 
