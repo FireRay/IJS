@@ -93,8 +93,9 @@ module.exports = function () {
   this.Then(/^the tellTurn method should be called with the currentPlayer as argument$/, function () {
     // Write code here that turns the phrase above into concrete actions
     runGame = new Board();
+    let runTellTurn = runGame.tellTurn.player;
     expect(() => (({
-      tellTurn(player)
+      runTellTurn
     })).to.have.property('this.currentPlayer'));
 
   });
