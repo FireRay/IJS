@@ -43,9 +43,9 @@ module.exports = function () {
   }
 
   // # 1
-  this.Given(/^that method winCheck returns something truthy$/, function () {
+  this.Given(/^that method winCheck returns something truthy$/, async function () {
     testGame = new winGame();
-    testGame.board.makeMove(0);
+    await testGame.board.makeMove(0);
   });
 
   this.Then(/^makeMove should call removeEventListener$/, function () {
@@ -55,6 +55,9 @@ module.exports = function () {
   // # 2
   this.Given(/^that winCheck returns an object with a combo attribute$/, function () {
     // still happened in testGame from last test
+    testGame = new winGame();
+
+
   });
 
   this.Then(/^the markWin method should be called with the combo value as argument$/, function () {
