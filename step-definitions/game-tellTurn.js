@@ -18,7 +18,8 @@ module.exports = function () {
   // # 2
   this.Given(/^that it is yellows turn$/, function () {
     // Write code here that turns the phrase above into concrete actions    
-    testGame = new Game();
+    //OBS!!!
+    //testGame = new Game();
     testGame.board.currentPlayer = 2;
     testGame.board.render();
   });
@@ -31,7 +32,7 @@ module.exports = function () {
   // # 3
   this.Given(/^that it is reds turn$/, function () {
     // Write code here that turns the phrase above into concrete actions    
-    testGame.board.currentPlayer = 2;
+    testGame.board.currentPlayer = 1;
     testGame.board.render();
   });
 
