@@ -26,7 +26,15 @@ class Board {
   }
 
   async makeMove(column) {
-    this.game.tellTurn();
+    this.removeEventListener();
+    this.markWin([
+      [0, 0],
+      [0, 1],
+      [0, 2],
+      [0, 3]
+    ]);
+    this.game.over(1);
+    return true;
 
 
   }
