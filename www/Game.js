@@ -25,6 +25,10 @@ class Game {
 
   over(won) {
 
+    if (!(won === 1 || won === 2 || won === 'draw')) {
+      throw 'won must be “draw”, 1 or 2';
+    }
+
     //receive won as inarg
     //if won = 1 the DOM element should display 'Röd vann!'
     //if won = 2 the DOM element should display 'Gul vann!'
