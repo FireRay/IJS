@@ -2,6 +2,32 @@ require('./_include-all')();
 
 module.exports = function () {
 
+  let runTestBoard;
+  let runBoard;
+  let runGame;
+  let startRender = false;
+
+
+  class testClass extends Board {
+
+
+    constructor(game) {
+      super(game);
+
+      this.render()
+
+      {
+        startRender = true;
+      }
+
+
+    }
+
+
+
+  }
+
+
 
 
   //# 1
@@ -15,6 +41,8 @@ module.exports = function () {
 
   this.Then(/^playInProgress should be set to true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runBoard = new Board();
+    expect(runBoard.makeMove.playInProgress).to.equal(true);
 
   });
 
@@ -22,12 +50,16 @@ module.exports = function () {
   //# 2
   this.Given(/^that makeMove is possible$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runTestBoard = new testClass();
+    expect(makeMove()).to.not.throw();
 
   });
 
   //# 2
   this.Then(/^the board method render should be called$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    expect(startRender).to.be.true;
 
   });
 
@@ -36,12 +68,15 @@ module.exports = function () {
   this.Given(/^the move was possible and that currentPlayer is two$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
+
   });
 
 
   //# 3
   this.Then(/^currentPlayer should be set to one$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    expect(runBoard.makeMove.currentPlayer).to.eql(2);
 
   });
 
@@ -57,6 +92,11 @@ module.exports = function () {
   //# 4
   this.Then(/^the tellTurn method should be called with the currentPlayer as argument$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runGame = new Board();
+    let runTellTurn = runGame.tellTurn.player;
+    expect(() => (({
+      runTellTurn
+    })).to.have.property('this.currentPlayer'));
 
   });
 
@@ -70,6 +110,9 @@ module.exports = function () {
   //# 5
   this.Then(/^it should set playInProgress to true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+    runBoard = new Board();
+    expect(runBoard.makeMove.playInProgress).to.equal(true);
+
 
   });
 
@@ -83,6 +126,9 @@ module.exports = function () {
   ///# 6
   this.Then(/^in the end makeMove returns true$/, function () {
     // Write code here that turns the phrase above into concrete actions
+
+    expect()
+
 
   });
 

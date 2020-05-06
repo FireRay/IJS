@@ -26,14 +26,64 @@ class Board {
   }
 
   async makeMove(column) {
-    this.removeEventListener();
-    this.markWin([
-      [0, 0],
-      [0, 1],
-      [0, 2],
-      [0, 3]
-    ]);
-    this.game.over(1);
+    //checks to see column has correct value
+    if (!(column >= 0 && column <= 6 && column % 1 === 0)) {
+      throw 'column must be an integer between 0 and 6'
+    }
+    //checks to see if play is in progress
+    if (this.playInProgress === true) {
+      return null;
+    }
+    //checks to see if selected column is full
+    if (this.matrix[0][column] !== 0) {
+      return false;
+    }
+
+    //if the move is possible
+
+    //sets playInProgress to true
+    //to prevent another move being made until its done
+    this.playInProgress = true;
+    //temporarly put the first brick at the top of the column
+    this.matrix[0][column] = this.currentPlayer;
+    //call render
+    this.render();
+    //call on sleep for 50ms
+    await sleep(50);
+    //check next row for brick
+    for (let i = 1; i < 6; i++) {
+      if (this.matrix[i][column] == 0) {
+        //if next row is empty, remove brick from current row
+        this.matrix[i - 1].splice(column, 1, 0);
+        //add brick to next row, render it, wait 50ms
+        this.matrix[i][column] = this.currentPlayer;
+        this.render();
+        await sleep(50);
+      } else {
+        //if next row isn't empty, stop the for loop
+        break;
+      }
+    }
+    //call winCheck if it returns truthy
+    if (this.winCheck()) {
+      //remove event listener
+      this.removeEventListener();
+      //if this.winCheck() has a combo attribute
+      if (this.winCheck().combo) {
+        //call the markWin method with the combo attribute
+        this.markWin(this.winCheck().combo)
+      }
+      //call the game over method over() with winner
+      this.game.over(this.winCheck().winner)
+      return true;
+    }
+    //change current player
+    this.currentPlayer == 1 ? this.currentPlayer = 2 : this.currentPlayer == 2 ? this.currentPlayer = 1 : '';
+    //call tellTurn with the new player (this.currentPlayer) as argument
+    this.game.tellTurn(this.currentPlayer);
+    //set play in progress to false
+    this.playInProgress = false;
+    //return true
     return true;
 
 
