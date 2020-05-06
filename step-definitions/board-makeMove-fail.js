@@ -2,6 +2,7 @@ require('./_include-all')();
 
 module.exports = function () {
 
+  // # 1
   this.Given(/^that the method recieves an argument that isn't an integer between zero and six$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
@@ -12,6 +13,7 @@ module.exports = function () {
 
   });
 
+  // # 2
   this.Given(/^that playInProgress is true$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
@@ -22,6 +24,7 @@ module.exports = function () {
 
   });
 
+  // # 3
   this.Given(/^that the selected column is full$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
