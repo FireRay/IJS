@@ -76,7 +76,7 @@ module.exports = function () {
   this.Then(/^currentPlayer should be set to one$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    expect(runBoard.makeMove.currentPlayer).to.eql(2);
+    expect(runBoard.makeMove.currentPlayer == 1).to.eql(2);
 
   });
 
@@ -127,7 +127,7 @@ module.exports = function () {
   this.Then(/^in the end makeMove returns true$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
-    expect()
+
 
 
   });
