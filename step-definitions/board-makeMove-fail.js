@@ -17,19 +17,19 @@ module.exports = function () {
   // # 2
   this.Given(/^that playInProgress is true$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    testGame.playInProgress = true;
+    testGame.board.playInProgress = true;
   });
 
-  this.Then(/^makeMove should return null$/, function () {
+  this.Then(/^makeMove should return null$/, async function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(testGame.makeMove(0)).to.be.a('null');
+    expect(await testGame.board.makeMove(0)).to.be.a('null');
   });
 
   // # 3
   this.Given(/^that the selected column is full$/, function () {
     // Write code here that turns the phrase above into concrete actions
     testGame = new Game();
-    testGame.matrix = [
+    testGame.board.matrix = [
       [0, 0, 0, 0, 0, 0, 1],
       [0, 0, 0, 0, 0, 0, 1],
       [0, 0, 0, 0, 0, 0, 1],
@@ -39,8 +39,8 @@ module.exports = function () {
     ];
   });
 
-  this.Then(/^it makeMove should return false$/, function () {
+  this.Then(/^it makeMove should return false$/, async function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(testGame.makeMove(6)).to.be.false;
+    expect(await testGame.board.makeMove(6)).to.be.false;
   });
 }
