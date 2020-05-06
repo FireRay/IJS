@@ -21,7 +21,7 @@ module.exports = function () {
     //OBS!!!
     //testGame = new Game();
     testGame.board.currentPlayer = 2;
-    testGame.board.render();
+    testGame.tellTurn(testGame.board.currentPlayer);
   });
 
   this.Then(/^the \.message element should display Guls tur\.\.\.$/, function () {
@@ -33,7 +33,7 @@ module.exports = function () {
   this.Given(/^that it is reds turn$/, function () {
     // Write code here that turns the phrase above into concrete actions    
     testGame.board.currentPlayer = 1;
-    testGame.board.render();
+    testGame.tellTurn(testGame.board.currentPlayer);
   });
 
   this.Then(/^the \.message element should display Röds tur\.\.\.$/, function () {
