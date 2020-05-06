@@ -1,38 +1,37 @@
 [
   {
-    "description": "  As a poor Connect 4 player\n  I want to play the game on my screen with my friends\n  So that I don't need to buy it.",
+    "description": "  The user must be able to play Connect 4\n  I need the Board class to call the Game class\n  So I can play the game.",
     "elements": [
       {
-        "id": "play-connect-4;a-new-game-creates-a-new-board",
+        "id": "the-board-class-constructor;the-constructor-recieves-an-instance-of-game",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "A new Game creates a new board",
+        "line": 7,
+        "name": "The Constructor recieves an instance of Game",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that a new Game is created",
+            "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 363600
+              "duration": 12507100
             },
-            "line": 10,
+            "line": 8,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:11"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:64"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "it should create a new Board",
+            "name": "the argument should be an instance of Game",
             "result": {
-              "status": "failed",
-              "duration": 1309200,
-              "error_message": "AssertionError: game.board is not an instance of Board: expected undefined to be an instance of Board\n    at createWorld.<anonymous> (C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:16:43)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "passed",
+              "duration": 382800
             },
-            "line": 11,
+            "line": 9,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:15"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:72"
             }
           },
           {
@@ -40,17 +39,23 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2690577400
+              "duration": 136600
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2263499
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -58,36 +63,35 @@
         "type": "scenario"
       },
       {
-        "id": "play-connect-4;a-board-adds-42-divs-to-the-.board-element",
+        "id": "the-board-class-constructor;the-constructor-should-throw-an-error-message",
         "keyword": "Scenario",
-        "line": 13,
-        "name": "A board adds 42 divs to the .board element",
+        "line": 12,
+        "name": "The Constructor should throw an error message",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that a new Board is created",
+            "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 7055600
+              "duration": 57899
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:21"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:78"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "it should render 42 divs as children of the board element",
+            "name": "an error should display \"game must be an instance of Game\"",
             "result": {
-              "status": "failed",
-              "duration": 2107699,
-              "error_message": "AssertionError: 42 divs were not created as children of the .board element: expected 0 to equal 42\n    at createWorld.<anonymous> (C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:30:28)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "passed",
+              "duration": 530700
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\step-definitions\\play-game.js:28"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:85"
             }
           },
           {
@@ -95,17 +99,289 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2224845100
+              "duration": 41599
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "C:\\Users\\LadyQuinn\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 85000
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-elements-of-the-matrix-board",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The elements of the Matrix board",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that Board has a matrix property",
+            "result": {
+              "status": "passed",
+              "duration": 525299
+            },
+            "line": 18,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the array has six elements that each stores seven elements",
+            "result": {
+              "status": "passed",
+              "duration": 248100
+            },
+            "line": 19,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "every element has the value zero",
+            "result": {
+              "status": "passed",
+              "duration": 218101
+            },
+            "line": 20,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:113"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 47400
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 112900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-properties-default-settings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "The Board properties default settings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has a board",
+            "result": {
+              "status": "passed",
+              "duration": 13109700
+            },
+            "line": 24,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the default value of the currentPlayer property is one",
+            "result": {
+              "status": "passed",
+              "duration": 152200
+            },
+            "line": 25,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the default value of the playInProgress property is false",
+            "result": {
+              "status": "passed",
+              "duration": 70800
+            },
+            "line": 26,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 33100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 93800
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-board-constructor-call-to-methods",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "The Board constructor call to methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the Board constructor is called",
+            "result": {
+              "status": "passed",
+              "duration": 27835401
+            },
+            "line": 30,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "addEventListener, render, tellTurn should be called in the stated order",
+            "result": {
+              "status": "passed",
+              "duration": 345700
+            },
+            "line": 31,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:149"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 35700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80401
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-board-class-constructor;the-call-to-tellturns-inargument",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The call to tellTurns inargument",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the tellTurn method in being called",
+            "result": {
+              "status": "passed",
+              "duration": 101300
+            },
+            "line": 35,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the tellTurns inargument should be currentPlayer property",
+            "result": {
+              "status": "passed",
+              "duration": 65399
+            },
+            "line": 36,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66000
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -113,11 +389,2017 @@
         "type": "scenario"
       }
     ],
-    "id": "play-connect-4",
+    "id": "the-board-class-constructor",
     "keyword": "Feature",
     "line": 1,
-    "name": "Play Connect 4",
+    "name": "The Board class constructor",
     "tags": [],
-    "uri": "C:/Users/LadyQuinn/Desktop/IJS/features/play-game.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-constructor.feature"
+  },
+  {
+    "description": "  As a player\n  I want the game to stop me from making a move when it's not possible\n  So I can play the game properly",
+    "elements": [
+      {
+        "id": "when-making-a-move-isn't-possible;wrong-argument-error",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Wrong argument error",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the method recieves an argument that isn't an integer between zero and six",
+            "result": {
+              "status": "passed",
+              "duration": 6524200
+            },
+            "line": 7,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it should throw an error saying \"column must be an integer between 0 and 6\"",
+            "result": {
+              "status": "passed",
+              "duration": 567799
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 32800
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 39900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-isn't-possible;play-is-in-progress",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Play is in progress",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that playInProgress is true",
+            "result": {
+              "status": "passed",
+              "duration": 64000
+            },
+            "line": 11,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "makeMove should return null",
+            "result": {
+              "status": "passed",
+              "duration": 148200
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 29701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 32299
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-isn't-possible;column-is-full",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Column is full",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the selected column is full",
+            "result": {
+              "status": "passed",
+              "duration": 8516999
+            },
+            "line": 15,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it makeMove should return false",
+            "result": {
+              "status": "passed",
+              "duration": 204300
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 34500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 40799
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "when-making-a-move-isn't-possible",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "When making a move isn't possible",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-fail.feature"
+  },
+  {
+    "description": "  As a player\n  I want to be able to make a move when it's possible\n  So I can play the game",
+    "elements": [
+      {
+        "id": "when-making-a-move-is-possible;call-method-render",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Call method render",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that makeMove is possible",
+            "result": {
+              "status": "passed",
+              "duration": 607600
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the board method render should be called",
+            "result": {
+              "status": "passed",
+              "duration": 70801
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 32699
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 76700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-is-possible;set-currentplayer-to-one",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Set currentPlayer to one",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the move was possible and that currentPlayer is one",
+            "result": {
+              "status": "passed",
+              "duration": 702523799
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "currentPlayer should be set to two",
+            "result": {
+              "status": "passed",
+              "duration": 151000
+            },
+            "line": 13,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:87"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54099
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 86200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-is-possible;set-currentplayer-to-two",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Set currentPlayer to two",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the move was possible and that currentPlayer is two",
+            "result": {
+              "status": "passed",
+              "duration": 600497799
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "currentPlayer should be set to one",
+            "result": {
+              "status": "passed",
+              "duration": 133400
+            },
+            "line": 17,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-is-possible;call-tellturn",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Call tellTurn",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the move was possible",
+            "result": {
+              "status": "passed",
+              "duration": 11871200
+            },
+            "line": 20,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:112"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the tellTurn method should be called with the currentPlayer as argument",
+            "result": {
+              "status": "passed",
+              "duration": 143200
+            },
+            "line": 21,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 65500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1396501
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-is-possible;set-playinprogress-to-false",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Set playInProgress to false",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the move is possible",
+            "result": {
+              "status": "passed",
+              "duration": 17435600
+            },
+            "line": 24,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it should set playInProgress to false",
+            "result": {
+              "status": "passed",
+              "duration": 133501
+            },
+            "line": 25,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 49700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 952301
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-making-a-move-is-possible;return-true",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Return true",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that winCheck wasn't truthy",
+            "result": {
+              "status": "passed",
+              "duration": 13918699
+            },
+            "line": 28,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "in the end makeMove returns true",
+            "result": {
+              "status": "passed",
+              "duration": 368104199
+            },
+            "line": 29,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:156"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 62000
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "when-making-a-move-is-possible",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "When making a move is possible",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-possible.feature"
+  },
+  {
+    "description": "  As a player\n  I want to be able to see if someone won\n  So I can celebrate",
+    "elements": [
+      {
+        "id": "when-calling-on-makemove-with-a-winner;call-removeeventlistener",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Call removeEventListener",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that method winCheck returns something truthy",
+            "result": {
+              "status": "passed",
+              "duration": 353205501
+            },
+            "line": 7,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "makeMove should call removeEventListener",
+            "result": {
+              "status": "passed",
+              "duration": 106900
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 48701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 58400
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-calling-on-makemove-with-a-winner;wincheck-returns-an-object-with-combo",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "winCheck returns an object with combo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that winCheck returns an object with a combo attribute",
+            "result": {
+              "status": "passed",
+              "duration": 7788799
+            },
+            "line": 11,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the markWin method should be called with the combo value as argument",
+            "result": {
+              "status": "passed",
+              "duration": 259801
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "makeMove should return true",
+            "result": {
+              "status": "passed",
+              "duration": 352012501
+            },
+            "line": 13,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 40601
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 35701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "when-calling-on-makemove-with-a-winner;call-game-method-over",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Call Game method over",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that winCheck returns an object with a winner attribute",
+            "result": {
+              "status": "passed",
+              "duration": 91000
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the over method should be called with winner value as argument",
+            "result": {
+              "status": "passed",
+              "duration": 105599
+            },
+            "line": 17,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 49601
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 853200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "when-calling-on-makemove-with-a-winner",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "When calling on makeMove with a winner",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-win.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "check-if-a-player-has-won;the-method-should-check-if-a-player-has-won",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The method should check if a player has won",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that one of the players has won",
+            "result": {
+              "status": "passed",
+              "duration": 8686101
+            },
+            "line": 4,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the method markWin(combo) recieves the argument combo",
+            "result": {
+              "status": "passed",
+              "duration": 3265501
+            },
+            "line": 5,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "adds the css-class win to each one of the div-element.",
+            "result": {
+              "status": "passed",
+              "duration": 1023500
+            },
+            "line": 6,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50800
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 944101
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-if-a-player-has-won",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Check if a player has won",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-markwin.feature"
+  },
+  {
+    "description": "  As a non-blind player\n  I want to be able to see the board\n  so I can play the game",
+    "elements": [
+      {
+        "id": "rendering-the-board;the-dom-element-class-=-board",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "The DOM element class = board",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that a game is in play",
+            "result": {
+              "status": "passed",
+              "duration": 21781201
+            },
+            "line": 7,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the DOM element .board should have fortytwo divs in it",
+            "result": {
+              "status": "passed",
+              "duration": 943900
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 46900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2542500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "rendering-the-board;correct-brick-on-spot",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Correct brick on spot",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that a player has a brick on a spot",
+            "result": {
+              "status": "passed",
+              "duration": 19470899
+            },
+            "line": 11,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the div on that spot should have the class representing the player",
+            "result": {
+              "status": "passed",
+              "duration": 985999
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1010700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "rendering-the-board;div-in-each-div",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Div in each div",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the board has fortytwo divs in it",
+            "result": {
+              "status": "passed",
+              "duration": 1308301
+            },
+            "line": 15,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "each of those divs should have an empty div in them",
+            "result": {
+              "status": "passed",
+              "duration": 96699
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-render.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 49100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1133200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "rendering-the-board",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Rendering the board",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-render.feature"
+  },
+  {
+    "description": "  As a competetive connect 4 player\n  I want to know if someone has won\n  So I crush my enemies",
+    "elements": [
+      {
+        "id": "a-method-that-checks-if-the-board-has-won;there-is-a-winner",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "There is a winner",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the a player has won",
+            "result": {
+              "status": "passed",
+              "duration": 30180200
+            },
+            "line": 7,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "winCheck() returns an object with the winner and combo attribute",
+            "result": {
+              "status": "passed",
+              "duration": 1216400
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1086500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "a-method-that-checks-if-the-board-has-won;winner-is-1-or-2",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Winner is 1 or 2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that someone has won",
+            "result": {
+              "status": "passed",
+              "duration": 88801
+            },
+            "line": 11,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the winner attribute of the winCheck() return value should be one / two",
+            "result": {
+              "status": "passed",
+              "duration": 211200
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 58500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 955600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "a-method-that-checks-if-the-board-has-won;the-game-ties",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "The game ties",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the outcome of the game is a tie",
+            "result": {
+              "status": "passed",
+              "duration": 132601
+            },
+            "line": 15,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the winner attribute of the winCheck() return value should be 'draw'",
+            "result": {
+              "status": "passed",
+              "duration": 20315400
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1788300
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "a-method-that-checks-if-the-board-has-won;the-game-is-still-going-on",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "The game is still going on",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that neither of player has won and the game isn't a tie",
+            "result": {
+              "status": "passed",
+              "duration": 120100
+            },
+            "line": 19,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "winCheck() should return the value false",
+            "result": {
+              "status": "passed",
+              "duration": 286301
+            },
+            "line": 20,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50601
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 920500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "a-method-that-checks-if-the-board-has-won",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "A method that checks if the board has won",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-winCheck.feature"
+  },
+  {
+    "description": "  As a Connect 4 player user\n  I want to know when I have clicked a button\n  So I know that I can play.",
+    "elements": [
+      {
+        "id": "notification-when-a-button-in-clicked;clicked-a-button",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Clicked a button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the method addEventListeners has an EventListener with a click event",
+            "result": {
+              "status": "passed",
+              "duration": 94101
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the start method should be called.",
+            "result": {
+              "status": "passed",
+              "duration": 79100
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 69601
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1184901
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "notification-when-a-button-in-clicked",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Notification when a button in clicked",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-addEventListener.feature"
+  },
+  {
+    "description": "  As a gamer\n  I want the constructor to call on the methods\n  So I can play the game.",
+    "elements": [
+      {
+        "id": "call-methods-in-constructor;the-game-calls-on-2-methods",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "The game calls on 2 methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game starts",
+            "result": {
+              "status": "passed",
+              "duration": 172500
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the constructor should call addEventListener and start in order",
+            "result": {
+              "status": "passed",
+              "duration": 120699
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 51199
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 966100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "call-methods-in-constructor",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Call methods in constructor",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-constructor.feature"
+  },
+  {
+    "description": "  The user shall during the game be informed\n  by a visual display who has won or if the Game\n  is a draw. Furthermore a play again button should also\n  be displayed.",
+    "elements": [
+      {
+        "id": "the-game-class-win;the-methods-inargument",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "The methods inargument",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the methods recives an invalid argument",
+            "result": {
+              "status": "passed",
+              "duration": 137400
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "an error message \"won must be “draw”, 1 or 2\" be thrown",
+            "result": {
+              "status": "passed",
+              "duration": 11631300
+            },
+            "line": 10,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 82900
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1729500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-class-win;display-draw",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Display draw",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has ended as draw",
+            "result": {
+              "status": "passed",
+              "duration": 3888200
+            },
+            "line": 14,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a message displaying “Det blev oavgjort!”",
+            "result": {
+              "status": "passed",
+              "duration": 2752600
+            },
+            "line": 15,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 51400
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1210500
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-class-win;display-winner-red",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Display winner red",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has finished and red has won",
+            "result": {
+              "status": "passed",
+              "duration": 1234999
+            },
+            "line": 18,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a message displaying the winner Röd vann!",
+            "result": {
+              "status": "passed",
+              "duration": 527800
+            },
+            "line": 19,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 52301
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 929599
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-class-win;display-winner-yellow",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Display winner yellow",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game has finished and yellow has won",
+            "result": {
+              "status": "passed",
+              "duration": 1045200
+            },
+            "line": 22,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a message displaying the winner Gul vann!",
+            "result": {
+              "status": "passed",
+              "duration": 432000
+            },
+            "line": 23,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 909200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-class-win;button-play-again",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Button play again",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the game is over",
+            "result": {
+              "status": "passed",
+              "duration": 163399
+            },
+            "line": 27,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element should have a button with the class again",
+            "result": {
+              "status": "passed",
+              "duration": 921400
+            },
+            "line": 28,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 48100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 917800
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "the-game-class-win",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "The Game class win",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-over-won.feature"
+  },
+  {
+    "description": "  As a player\n  I want to be able to start a game\n  So I can play with my friends",
+    "elements": [
+      {
+        "id": "starting-the-game;creating-a-board",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Creating a board",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a game is being started",
+            "result": {
+              "status": "passed",
+              "duration": 38591200
+            },
+            "line": 7,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-start.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Game.start() method should create a new board stored in this.board",
+            "result": {
+              "status": "passed",
+              "duration": 186300
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-start.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50300
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 950600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "starting-the-game",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Starting the game",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-start.feature"
+  },
+  {
+    "description": "  As a player\n  I want to know who's turn it is\n  So the right player makes a move",
+    "elements": [
+      {
+        "id": "the-game-should-say-who's-turn-it-is;error-message",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Error message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the taken argument is not one or two",
+            "result": {
+              "status": "passed",
+              "duration": 7926501
+            },
+            "line": 8,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it should throw \"player must be 1 or 2\"",
+            "result": {
+              "status": "passed",
+              "duration": 247901
+            },
+            "line": 9,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 45001
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 913701
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-should-say-who's-turn-it-is;yellows-turn",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Yellows turn",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that it is yellows turn",
+            "result": {
+              "status": "passed",
+              "duration": 577499
+            },
+            "line": 12,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element should display Guls tur...",
+            "result": {
+              "status": "passed",
+              "duration": 290800
+            },
+            "line": 13,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1766700
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 957600
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "the-game-should-say-who's-turn-it-is;reds-turn",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Reds turn",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that it is reds turn",
+            "result": {
+              "status": "passed",
+              "duration": 460599
+            },
+            "line": 16,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the .message element should display Röds tur...",
+            "result": {
+              "status": "passed",
+              "duration": 286599
+            },
+            "line": 17,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57100
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 12873200
+            },
+            "hidden": true,
+            "match": {
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "the-game-should-say-who's-turn-it-is",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "The game should say who's turn it is",
+    "tags": [],
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-tellTurn.feature"
   }
 ]
