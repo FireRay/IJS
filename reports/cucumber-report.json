@@ -14,11 +14,11 @@
             "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 18329201
+              "duration": 15146001
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:64"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:64"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "the argument should be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 540599
+              "duration": 288401
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:72"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:72"
             }
           },
           {
@@ -39,11 +39,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 158199
+              "duration": 105900
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -51,11 +51,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3041300
+              "duration": 2158700
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -74,11 +74,11 @@
             "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 90099
+              "duration": 62999
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:78"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:78"
             }
           },
           {
@@ -87,11 +87,11 @@
             "name": "an error should display game must be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 719900
+              "duration": 547399
             },
             "line": 14,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:85"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:85"
             }
           },
           {
@@ -99,11 +99,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 56100
+              "duration": 41600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -111,11 +111,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 118200
+              "duration": 86701
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -134,11 +134,11 @@
             "name": "that Board has a matrix property",
             "result": {
               "status": "passed",
-              "duration": 809300
+              "duration": 586799
             },
             "line": 18,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:92"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:92"
             }
           },
           {
@@ -147,11 +147,11 @@
             "name": "the array has six elements that each stores seven elements",
             "result": {
               "status": "passed",
-              "duration": 343400
+              "duration": 247200
             },
             "line": 19,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:103"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:103"
             }
           },
           {
@@ -160,11 +160,11 @@
             "name": "every element has the value zero",
             "result": {
               "status": "passed",
-              "duration": 305099
+              "duration": 227699
             },
             "line": 20,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:113"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:113"
             }
           },
           {
@@ -172,11 +172,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 52499
+              "duration": 36801
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -184,11 +184,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 168900
+              "duration": 109300
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -207,11 +207,11 @@
             "name": "that the game has a board",
             "result": {
               "status": "passed",
-              "duration": 27070799
+              "duration": 13345399
             },
             "line": 24,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:125"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:125"
             }
           },
           {
@@ -220,11 +220,11 @@
             "name": "the default value of the currentPlayer property is one",
             "result": {
               "status": "passed",
-              "duration": 150300
+              "duration": 90600
             },
             "line": 25,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:130"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:130"
             }
           },
           {
@@ -233,11 +233,11 @@
             "name": "the default value of the playInProgress property is false",
             "result": {
               "status": "passed",
-              "duration": 126899
+              "duration": 112201
             },
             "line": 26,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:137"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:137"
             }
           },
           {
@@ -245,11 +245,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 58701
+              "duration": 33499
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -257,11 +257,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 156099
+              "duration": 93600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -280,11 +280,11 @@
             "name": "that the Board constructor is called",
             "result": {
               "status": "passed",
-              "duration": 38344901
+              "duration": 27308200
             },
             "line": 30,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:143"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:143"
             }
           },
           {
@@ -293,11 +293,11 @@
             "name": "addEventListener, render, tellTurn should be called in the stated order",
             "result": {
               "status": "passed",
-              "duration": 544800
+              "duration": 340801
             },
             "line": 31,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:149"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:149"
             }
           },
           {
@@ -305,11 +305,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 46900
+              "duration": 34901
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -317,11 +317,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 134199
+              "duration": 79900
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -340,11 +340,11 @@
             "name": "that the tellTurn method in being called",
             "result": {
               "status": "passed",
-              "duration": 184200
+              "duration": 94000
             },
             "line": 35,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:158"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:158"
             }
           },
           {
@@ -353,11 +353,11 @@
             "name": "the tellTurns inargument should be currentPlayer property",
             "result": {
               "status": "passed",
-              "duration": 117200
+              "duration": 62600
             },
             "line": 36,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-constructor.js:166"
+              "location": "1\\IJS\\step-definitions\\board-constructor.js:166"
             }
           },
           {
@@ -365,11 +365,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 47800
+              "duration": 31499
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -377,11 +377,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 111199
+              "duration": 61800
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -394,7 +394,7 @@
     "line": 1,
     "name": "The Board class constructor",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-constructor.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-constructor.feature"
   },
   {
     "description": "  As a player\n  I want the game to stop me from making a move when it's not possible\n  So I can play the game properly",
@@ -411,11 +411,11 @@
             "name": "that the method recieves an argument that isn't an integer between zero and six",
             "result": {
               "status": "passed",
-              "duration": 9557599
+              "duration": 6885600
             },
             "line": 7,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:7"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:7"
             }
           },
           {
@@ -424,11 +424,11 @@
             "name": "it should throw an error saying \"column must be an integer between 0 and 6\"",
             "result": {
               "status": "passed",
-              "duration": 815601
+              "duration": 553500
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:12"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:12"
             }
           },
           {
@@ -436,11 +436,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 43800
+              "duration": 33699
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -448,11 +448,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 46200
+              "duration": 38599
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -471,11 +471,11 @@
             "name": "that playInProgress is true",
             "result": {
               "status": "passed",
-              "duration": 83900
+              "duration": 67700
             },
             "line": 11,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:18"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:18"
             }
           },
           {
@@ -484,11 +484,11 @@
             "name": "makeMove should return null",
             "result": {
               "status": "passed",
-              "duration": 358599
+              "duration": 155199
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:23"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:23"
             }
           },
           {
@@ -496,11 +496,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 54899
+              "duration": 31400
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -508,11 +508,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 55400
+              "duration": 33699
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -531,11 +531,11 @@
             "name": "that the selected column is full",
             "result": {
               "status": "passed",
-              "duration": 9648399
+              "duration": 7015400
             },
             "line": 15,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:29"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:29"
             }
           },
           {
@@ -544,11 +544,11 @@
             "name": "it makeMove should return false",
             "result": {
               "status": "passed",
-              "duration": 334100
+              "duration": 204800
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-fail.js:42"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-fail.js:42"
             }
           },
           {
@@ -556,11 +556,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 48899
+              "duration": 37100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -568,11 +568,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 58001
+              "duration": 37600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -585,7 +585,7 @@
     "line": 1,
     "name": "When making a move isn't possible",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-makeMove-fail.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-fail.feature"
   },
   {
     "description": "  As a player\n  I want to be able to make a move when it's possible\n  So I can play the game",
@@ -602,11 +602,11 @@
             "name": "that makeMove is possible",
             "result": {
               "status": "passed",
-              "duration": 1078000
+              "duration": 633599
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:57"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:57"
             }
           },
           {
@@ -615,11 +615,11 @@
             "name": "the board method render should be called",
             "result": {
               "status": "passed",
-              "duration": 163301
+              "duration": 71299
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:67"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:67"
             }
           },
           {
@@ -627,11 +627,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 49900
+              "duration": 34501
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -639,11 +639,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 124901
+              "duration": 82199
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -662,11 +662,11 @@
             "name": "the move was possible and that currentPlayer is one",
             "result": {
               "status": "passed",
-              "duration": 1068112100
+              "duration": 674470500
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:76"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:76"
             }
           },
           {
@@ -675,11 +675,11 @@
             "name": "currentPlayer should be set to two",
             "result": {
               "status": "passed",
-              "duration": 244099
+              "duration": 382399
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:87"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:87"
             }
           },
           {
@@ -687,11 +687,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 133500
+              "duration": 54001
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -699,11 +699,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 177400
+              "duration": 78800
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -722,11 +722,11 @@
             "name": "the move was possible and that currentPlayer is two",
             "result": {
               "status": "passed",
-              "duration": 802120399
+              "duration": 595634900
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:94"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:94"
             }
           },
           {
@@ -735,11 +735,11 @@
             "name": "currentPlayer should be set to one",
             "result": {
               "status": "passed",
-              "duration": 951400
+              "duration": 128601
             },
             "line": 17,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:104"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:104"
             }
           },
           {
@@ -747,11 +747,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 107100
+              "duration": 49299
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -759,11 +759,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 145901
+              "duration": 59400
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -782,11 +782,11 @@
             "name": "that the move was possible",
             "result": {
               "status": "passed",
-              "duration": 28650501
+              "duration": 11083400
             },
             "line": 20,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:112"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:112"
             }
           },
           {
@@ -795,11 +795,11 @@
             "name": "the tellTurn method should be called with the currentPlayer as argument",
             "result": {
               "status": "passed",
-              "duration": 321400
+              "duration": 112300
             },
             "line": 21,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:119"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:119"
             }
           },
           {
@@ -807,11 +807,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 109599
+              "duration": 43099
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -819,11 +819,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1354799
+              "duration": 953700
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -842,11 +842,11 @@
             "name": "that the move is possible",
             "result": {
               "status": "passed",
-              "duration": 57166401
+              "duration": 13016800
             },
             "line": 24,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:130"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:130"
             }
           },
           {
@@ -855,11 +855,11 @@
             "name": "it should set playInProgress to false",
             "result": {
               "status": "passed",
-              "duration": 232300
+              "duration": 128800
             },
             "line": 25,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:138"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:138"
             }
           },
           {
@@ -867,11 +867,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 100900
+              "duration": 47300
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -879,11 +879,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1691199
+              "duration": 34358401
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -902,11 +902,11 @@
             "name": "that winCheck wasn't truthy",
             "result": {
               "status": "passed",
-              "duration": 24430201
+              "duration": 50344100
             },
             "line": 28,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:147"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:147"
             }
           },
           {
@@ -915,11 +915,11 @@
             "name": "in the end makeMove returns true",
             "result": {
               "status": "passed",
-              "duration": 497823000
+              "duration": 381637099
             },
             "line": 29,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-possible.js:156"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-possible.js:156"
             }
           },
           {
@@ -927,11 +927,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 97899
+              "duration": 47300
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -939,11 +939,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 109399
+              "duration": 49601
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -956,7 +956,7 @@
     "line": 1,
     "name": "When making a move is possible",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-makeMove-possible.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-possible.feature"
   },
   {
     "description": "  As a player\n  I want to be able to see if someone won\n  So I can celebrate",
@@ -973,11 +973,11 @@
             "name": "that method winCheck returns something truthy",
             "result": {
               "status": "passed",
-              "duration": 446437800
+              "duration": 367039800
             },
             "line": 7,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:46"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:46"
             }
           },
           {
@@ -986,11 +986,11 @@
             "name": "makeMove should call removeEventListener",
             "result": {
               "status": "passed",
-              "duration": 178299
+              "duration": 124700
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:51"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:51"
             }
           },
           {
@@ -998,11 +998,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 105300
+              "duration": 54100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1010,11 +1010,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 115199
+              "duration": 55699
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1033,11 +1033,11 @@
             "name": "that winCheck returns an object with a combo attribute",
             "result": {
               "status": "passed",
-              "duration": 16962800
+              "duration": 10788500
             },
             "line": 11,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:56"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:56"
             }
           },
           {
@@ -1046,11 +1046,11 @@
             "name": "the markWin method should be called with the combo value as argument",
             "result": {
               "status": "passed",
-              "duration": 713100
+              "duration": 246100
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:63"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:63"
             }
           },
           {
@@ -1059,11 +1059,11 @@
             "name": "makeMove should return true",
             "result": {
               "status": "passed",
-              "duration": 442369300
+              "duration": 364176899
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:72"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:72"
             }
           },
           {
@@ -1071,11 +1071,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 278800
+              "duration": 46201
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1083,11 +1083,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 195300
+              "duration": 50000
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1106,11 +1106,11 @@
             "name": "that winCheck returns an object with a winner attribute",
             "result": {
               "status": "passed",
-              "duration": 158000
+              "duration": 89699
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:79"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:79"
             }
           },
           {
@@ -1119,11 +1119,11 @@
             "name": "the over method should be called with winner value as argument",
             "result": {
               "status": "passed",
-              "duration": 452199
+              "duration": 101299
             },
             "line": 17,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:83"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:83"
             }
           },
           {
@@ -1131,11 +1131,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 106600
+              "duration": 46799
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1143,11 +1143,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1262299
+              "duration": 898600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1160,7 +1160,7 @@
     "line": 1,
     "name": "When calling on makeMove with a winner",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-makeMove-win.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-makeMove-win.feature"
   },
   {
     "elements": [
@@ -1176,11 +1176,11 @@
             "name": "that one of the players has won",
             "result": {
               "status": "passed",
-              "duration": 28295500
+              "duration": 10412001
             },
             "line": 4,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-markwin.js:8"
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:8"
             }
           },
           {
@@ -1189,11 +1189,11 @@
             "name": "the method markWin(combo) recieves the argument combo",
             "result": {
               "status": "passed",
-              "duration": 8012200
+              "duration": 3819400
             },
             "line": 5,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-markwin.js:20"
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:20"
             }
           },
           {
@@ -1202,11 +1202,11 @@
             "name": "adds the css-class win to each one of the div-element.",
             "result": {
               "status": "passed",
-              "duration": 3061700
+              "duration": 944201
             },
             "line": 6,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-markwin.js:24"
+              "location": "1\\IJS\\step-definitions\\board-markwin.js:24"
             }
           },
           {
@@ -1214,11 +1214,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 186000
+              "duration": 47500
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1226,11 +1226,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1397100
+              "duration": 1126100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1243,7 +1243,7 @@
     "line": 1,
     "name": "Check if a player has won",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-markwin.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-markwin.feature"
   },
   {
     "description": "  As a non-blind player\n  I want to be able to see the board\n  so I can play the game",
@@ -1260,11 +1260,11 @@
             "name": "that a game is in play",
             "result": {
               "status": "passed",
-              "duration": 25556901
+              "duration": 18118300
             },
             "line": 7,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:8"
+              "location": "1\\IJS\\step-definitions\\board-render.js:8"
             }
           },
           {
@@ -1273,11 +1273,11 @@
             "name": "the DOM element .board should have fortytwo divs in it",
             "result": {
               "status": "passed",
-              "duration": 7298699
+              "duration": 1641700
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:13"
+              "location": "1\\IJS\\step-definitions\\board-render.js:13"
             }
           },
           {
@@ -1285,11 +1285,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 84199
+              "duration": 57101
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1297,11 +1297,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1329700
+              "duration": 951501
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1320,11 +1320,11 @@
             "name": "that a player has a brick on a spot",
             "result": {
               "status": "passed",
-              "duration": 20015000
+              "duration": 11321400
             },
             "line": 11,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:22"
+              "location": "1\\IJS\\step-definitions\\board-render.js:22"
             }
           },
           {
@@ -1333,11 +1333,11 @@
             "name": "the div on that spot should have the class representing the player",
             "result": {
               "status": "passed",
-              "duration": 1746000
+              "duration": 2113800
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:37"
+              "location": "1\\IJS\\step-definitions\\board-render.js:37"
             }
           },
           {
@@ -1345,11 +1345,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 98700
+              "duration": 52600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1357,11 +1357,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1402500
+              "duration": 950000
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1380,11 +1380,11 @@
             "name": "that the board has fortytwo divs in it",
             "result": {
               "status": "passed",
-              "duration": 655335400
+              "duration": 1367500
             },
             "line": 15,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:47"
+              "location": "1\\IJS\\step-definitions\\board-render.js:47"
             }
           },
           {
@@ -1393,11 +1393,11 @@
             "name": "each of those divs should have an empty div in them",
             "result": {
               "status": "passed",
-              "duration": 206500
+              "duration": 140201
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-render.js:54"
+              "location": "1\\IJS\\step-definitions\\board-render.js:54"
             }
           },
           {
@@ -1405,11 +1405,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 87101
+              "duration": 49900
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1417,11 +1417,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1401499
+              "duration": 983101
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1434,7 +1434,7 @@
     "line": 1,
     "name": "Rendering the board",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-render.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-render.feature"
   },
   {
     "description": "  As a competetive connect 4 player\n  I want to know if someone has won\n  So I crush my enemies",
@@ -1451,11 +1451,11 @@
             "name": "that the a player has won",
             "result": {
               "status": "passed",
-              "duration": 22569299
+              "duration": 42517601
             },
             "line": 7,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:8"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:8"
             }
           },
           {
@@ -1464,11 +1464,11 @@
             "name": "winCheck() returns an object with the winner and combo attribute",
             "result": {
               "status": "passed",
-              "duration": 2708500
+              "duration": 2181700
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:21"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:21"
             }
           },
           {
@@ -1476,11 +1476,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 522200
+              "duration": 54001
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1488,11 +1488,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1380700
+              "duration": 953100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1511,11 +1511,11 @@
             "name": "that someone has won",
             "result": {
               "status": "passed",
-              "duration": 172601
+              "duration": 100201
             },
             "line": 11,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:29"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:29"
             }
           },
           {
@@ -1524,11 +1524,11 @@
             "name": "the winner attribute of the winCheck() return value should be one / two",
             "result": {
               "status": "passed",
-              "duration": 380300
+              "duration": 241599
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:34"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:34"
             }
           },
           {
@@ -1536,11 +1536,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 78900
+              "duration": 47201
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1548,11 +1548,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1774800
+              "duration": 1027500
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1571,11 +1571,11 @@
             "name": "that the outcome of the game is a tie",
             "result": {
               "status": "passed",
-              "duration": 311499
+              "duration": 137201
             },
             "line": 15,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:40"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:40"
             }
           },
           {
@@ -1584,11 +1584,11 @@
             "name": "the winner attribute of the winCheck() return value should be 'draw'",
             "result": {
               "status": "passed",
-              "duration": 326999
+              "duration": 194599
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:53"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:53"
             }
           },
           {
@@ -1596,11 +1596,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 144099
+              "duration": 58800
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1608,11 +1608,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1866700
+              "duration": 1005100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1631,11 +1631,11 @@
             "name": "that neither of player has won and the game isn't a tie",
             "result": {
               "status": "passed",
-              "duration": 210600
+              "duration": 146700
             },
             "line": 19,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:60"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:60"
             }
           },
           {
@@ -1644,11 +1644,11 @@
             "name": "winCheck() should return the value false",
             "result": {
               "status": "passed",
-              "duration": 483999
+              "duration": 252200
             },
             "line": 20,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-winCheck.js:72"
+              "location": "1\\IJS\\step-definitions\\board-winCheck.js:72"
             }
           },
           {
@@ -1656,11 +1656,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 132500
+              "duration": 54299
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1668,11 +1668,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2478899
+              "duration": 1398700
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1685,7 +1685,7 @@
     "line": 1,
     "name": "A method that checks if the board has won",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/board-winCheck.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/board-winCheck.feature"
   },
   {
     "description": "  As a Connect 4 player user\n  I want to know when I have clicked a button\n  So I know that I can play.",
@@ -1702,11 +1702,11 @@
             "name": "that the method addEventListeners has an EventListener with a click event",
             "result": {
               "status": "passed",
-              "duration": 186400
+              "duration": 85200
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-addEventListener.js:8"
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.js:8"
             }
           },
           {
@@ -1715,11 +1715,11 @@
             "name": "the start method should be called.",
             "result": {
               "status": "passed",
-              "duration": 210499
+              "duration": 117800
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-addEventListener.js:13"
+              "location": "1\\IJS\\step-definitions\\game-addEventListener.js:13"
             }
           },
           {
@@ -1727,11 +1727,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 87800
+              "duration": 56100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1739,11 +1739,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1350601
+              "duration": 921200
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1756,7 +1756,7 @@
     "line": 1,
     "name": "Notification when a button in clicked",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/game-addEventListener.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-addEventListener.feature"
   },
   {
     "description": "  As a gamer\n  I want the constructor to call on the methods\n  So I can play the game.",
@@ -1773,11 +1773,11 @@
             "name": "that the game starts",
             "result": {
               "status": "passed",
-              "duration": 296900
+              "duration": 164800
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-constructor.js:20"
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:20"
             }
           },
           {
@@ -1786,11 +1786,11 @@
             "name": "the constructor should call addEventListener and start in order",
             "result": {
               "status": "passed",
-              "duration": 283601
+              "duration": 148300
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-constructor.js:26"
+              "location": "1\\IJS\\step-definitions\\game-constructor.js:26"
             }
           },
           {
@@ -1798,11 +1798,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 115801
+              "duration": 53001
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1810,11 +1810,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1287800
+              "duration": 23734399
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1827,7 +1827,7 @@
     "line": 1,
     "name": "Call methods in constructor",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/game-constructor.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-constructor.feature"
   },
   {
     "description": "  The user shall during the game be informed\n  by a visual display who has won or if the Game\n  is a draw. Furthermore a play again button should also\n  be displayed.",
@@ -1844,11 +1844,11 @@
             "name": "that the methods recives an invalid argument",
             "result": {
               "status": "passed",
-              "duration": 228800
+              "duration": 137400
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:8"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:8"
             }
           },
           {
@@ -1857,11 +1857,11 @@
             "name": "an error message \"won must be “draw”, 1 or 2\" be thrown",
             "result": {
               "status": "passed",
-              "duration": 23101801
+              "duration": 7185299
             },
             "line": 10,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:16"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:16"
             }
           },
           {
@@ -1869,11 +1869,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 237600
+              "duration": 48200
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1881,11 +1881,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 14675501
+              "duration": 1312501
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1904,11 +1904,11 @@
             "name": "that the game has ended as draw",
             "result": {
               "status": "passed",
-              "duration": 4862101
+              "duration": 1557399
             },
             "line": 14,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:23"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:23"
             }
           },
           {
@@ -1917,11 +1917,11 @@
             "name": "a message displaying “Det blev oavgjort!”",
             "result": {
               "status": "passed",
-              "duration": 3862501
+              "duration": 1013401
             },
             "line": 15,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:31"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:31"
             }
           },
           {
@@ -1929,11 +1929,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 87501
+              "duration": 56201
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -1941,11 +1941,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1338999
+              "duration": 1221400
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1964,11 +1964,11 @@
             "name": "that the game has finished and red has won",
             "result": {
               "status": "passed",
-              "duration": 3062000
+              "duration": 1313699
             },
             "line": 18,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:39"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:39"
             }
           },
           {
@@ -1977,11 +1977,11 @@
             "name": "a message displaying the winner Röd vann!",
             "result": {
               "status": "passed",
-              "duration": 854400
+              "duration": 449300
             },
             "line": 19,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:46"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:46"
             }
           },
           {
@@ -1989,11 +1989,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 111599
+              "duration": 50199
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2001,11 +2001,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1421100
+              "duration": 1003600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2024,11 +2024,11 @@
             "name": "that the game has finished and yellow has won",
             "result": {
               "status": "passed",
-              "duration": 1666500
+              "duration": 947000
             },
             "line": 22,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:54"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:54"
             }
           },
           {
@@ -2037,11 +2037,11 @@
             "name": "a message displaying the winner Gul vann!",
             "result": {
               "status": "passed",
-              "duration": 832100
+              "duration": 443600
             },
             "line": 23,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:61"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:61"
             }
           },
           {
@@ -2049,11 +2049,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 87299
+              "duration": 47900
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2061,11 +2061,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1431599
+              "duration": 1000399
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2084,11 +2084,11 @@
             "name": "that the game is over",
             "result": {
               "status": "passed",
-              "duration": 163799
+              "duration": 90400
             },
             "line": 27,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:67"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:67"
             }
           },
           {
@@ -2097,11 +2097,11 @@
             "name": "the .message element should have a button with the class again",
             "result": {
               "status": "passed",
-              "duration": 1733300
+              "duration": 890400
             },
             "line": 28,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-over-won.js:75"
+              "location": "1\\IJS\\step-definitions\\game-over-won.js:75"
             }
           },
           {
@@ -2109,11 +2109,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 101800
+              "duration": 47100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2121,11 +2121,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2512300
+              "duration": 891800
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2138,7 +2138,7 @@
     "line": 1,
     "name": "The Game class win",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/game-over-won.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-over-won.feature"
   },
   {
     "description": "  As a player\n  I want to be able to start a game\n  So I can play with my friends",
@@ -2155,11 +2155,11 @@
             "name": "a game is being started",
             "result": {
               "status": "passed",
-              "duration": 14237500
+              "duration": 8911200
             },
             "line": 7,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-start.js:7"
+              "location": "1\\IJS\\step-definitions\\game-start.js:7"
             }
           },
           {
@@ -2168,11 +2168,11 @@
             "name": "the Game.start() method should create a new board stored in this.board",
             "result": {
               "status": "passed",
-              "duration": 300701
+              "duration": 235401
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-start.js:12"
+              "location": "1\\IJS\\step-definitions\\game-start.js:12"
             }
           },
           {
@@ -2180,11 +2180,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 86300
+              "duration": 53699
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2192,11 +2192,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1221100
+              "duration": 1203200
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2209,7 +2209,7 @@
     "line": 1,
     "name": "Starting the game",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/game-start.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-start.feature"
   },
   {
     "description": "  As a player\n  I want to know who's turn it is\n  So the right player makes a move",
@@ -2226,11 +2226,11 @@
             "name": "the taken argument is not one or two",
             "result": {
               "status": "passed",
-              "duration": 20137300
+              "duration": 7431800
             },
             "line": 8,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:7"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:7"
             }
           },
           {
@@ -2239,11 +2239,11 @@
             "name": "it should throw player must be 1 or 2",
             "result": {
               "status": "passed",
-              "duration": 425501
+              "duration": 240400
             },
             "line": 9,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:12"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:12"
             }
           },
           {
@@ -2251,11 +2251,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 155300
+              "duration": 49100
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2263,11 +2263,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2161401
+              "duration": 969499
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2286,11 +2286,11 @@
             "name": "that it is yellows turn",
             "result": {
               "status": "passed",
-              "duration": 996599
+              "duration": 575199
             },
             "line": 12,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:19"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:19"
             }
           },
           {
@@ -2299,11 +2299,11 @@
             "name": "the .message element should display Guls tur...",
             "result": {
               "status": "passed",
-              "duration": 590500
+              "duration": 268200
             },
             "line": 13,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:27"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:27"
             }
           },
           {
@@ -2311,11 +2311,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 133399
+              "duration": 72500
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2323,11 +2323,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1466301
+              "duration": 922600
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2346,11 +2346,11 @@
             "name": "that it is reds turn",
             "result": {
               "status": "passed",
-              "duration": 865400
+              "duration": 481500
             },
             "line": 16,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:33"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:33"
             }
           },
           {
@@ -2359,11 +2359,11 @@
             "name": "the .message element should display Röds tur...",
             "result": {
               "status": "passed",
-              "duration": 544000
+              "duration": 301201
             },
             "line": 17,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\game-tellTurn.js:39"
+              "location": "1\\IJS\\step-definitions\\game-tellTurn.js:39"
             }
           },
           {
@@ -2371,11 +2371,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 86699
+              "duration": 46500
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\step-definitions\\board-makeMove-win.js:6"
+              "location": "1\\IJS\\step-definitions\\board-makeMove-win.js:6"
             }
           },
           {
@@ -2383,11 +2383,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3231201
+              "duration": 947400
             },
             "hidden": true,
             "match": {
-              "location": "Höglund\\Desktop\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "1\\IJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2400,6 +2400,6 @@
     "line": 1,
     "name": "The game should say who's turn it is",
     "tags": [],
-    "uri": "C:/Users/Jonas Höglund/Desktop/IJS/features/game-tellTurn.feature"
+    "uri": "C:/Users/gamea/OneDrive/Desktop/Gruppuppgift Test/Uppgift 1/IJS/features/game-tellTurn.feature"
   }
 ]

@@ -33,7 +33,7 @@ module.exports = function () {
 
   this.Then(/^the winner attribute of the winCheck\(\) return value should be one \/ two$/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(results.winner).to.be.oneOf(['1', '2']);
+    expect(results.winner).to.be.oneOf([1, 2]);
   });
 
   // # 3

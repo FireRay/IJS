@@ -129,7 +129,7 @@ class Board {
             }
 
             return {
-              winner: slots[0],
+              winner: +slots[0],
               combo: currentSlot
             }
           }
