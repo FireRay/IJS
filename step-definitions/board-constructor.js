@@ -82,9 +82,9 @@ module.exports = function () {
 
   });
 
-  this.Then(/^an error should display "([^"]*)"$/, function (expectedErrorMessage) {
+  this.Then(/^an error should display game must be an instance of Game/, function () {
     // Write code here that turns the phrase above into concrete actions
-    expect(() => new Board('hej')).to.throw(expectedErrorMessage);
+    expect(() => new Board('hej')).to.throw('game must be an instance of Game');
   });
 
 

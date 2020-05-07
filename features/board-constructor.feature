@@ -11,7 +11,7 @@ Feature: The Board class constructor
   # 2
   Scenario: The Constructor should throw an error message
     Given that the constructor argument is not a instance of Game
-    Then an error should display "game must be an instance of Game"
+    Then an error should display game must be an instance of Game
 
   # 3
   Scenario: The elements of the Matrix board

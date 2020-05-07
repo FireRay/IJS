@@ -14,7 +14,7 @@
             "name": "that the constructor recieves an argument",
             "result": {
               "status": "passed",
-              "duration": 12507100
+              "duration": 12839499
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the argument should be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 382800
+              "duration": 292300
             },
             "line": 9,
             "match": {
@@ -39,7 +39,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 136600
+              "duration": 110999
             },
             "hidden": true,
             "match": {
@@ -51,7 +51,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2263499
+              "duration": 2228099
             },
             "hidden": true,
             "match": {
@@ -74,7 +74,7 @@
             "name": "that the constructor argument is not a instance of Game",
             "result": {
               "status": "passed",
-              "duration": 57899
+              "duration": 61400
             },
             "line": 13,
             "match": {
@@ -84,10 +84,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "an error should display \"game must be an instance of Game\"",
+            "name": "an error should display game must be an instance of Game",
             "result": {
               "status": "passed",
-              "duration": 530700
+              "duration": 542099
             },
             "line": 14,
             "match": {
@@ -99,7 +99,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 41599
+              "duration": 39299
             },
             "hidden": true,
             "match": {
@@ -111,7 +111,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 85000
+              "duration": 92400
             },
             "hidden": true,
             "match": {
@@ -134,7 +134,7 @@
             "name": "that Board has a matrix property",
             "result": {
               "status": "passed",
-              "duration": 525299
+              "duration": 565500
             },
             "line": 18,
             "match": {
@@ -147,7 +147,7 @@
             "name": "the array has six elements that each stores seven elements",
             "result": {
               "status": "passed",
-              "duration": 248100
+              "duration": 229900
             },
             "line": 19,
             "match": {
@@ -160,7 +160,7 @@
             "name": "every element has the value zero",
             "result": {
               "status": "passed",
-              "duration": 218101
+              "duration": 214400
             },
             "line": 20,
             "match": {
@@ -172,7 +172,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 47400
+              "duration": 37600
             },
             "hidden": true,
             "match": {
@@ -184,7 +184,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 112900
+              "duration": 129400
             },
             "hidden": true,
             "match": {
@@ -207,7 +207,7 @@
             "name": "that the game has a board",
             "result": {
               "status": "passed",
-              "duration": 13109700
+              "duration": 13965901
             },
             "line": 24,
             "match": {
@@ -220,7 +220,7 @@
             "name": "the default value of the currentPlayer property is one",
             "result": {
               "status": "passed",
-              "duration": 152200
+              "duration": 103601
             },
             "line": 25,
             "match": {
@@ -233,7 +233,7 @@
             "name": "the default value of the playInProgress property is false",
             "result": {
               "status": "passed",
-              "duration": 70800
+              "duration": 72500
             },
             "line": 26,
             "match": {
@@ -245,7 +245,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 33100
+              "duration": 32600
             },
             "hidden": true,
             "match": {
@@ -257,7 +257,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 93800
+              "duration": 96799
             },
             "hidden": true,
             "match": {
@@ -280,7 +280,7 @@
             "name": "that the Board constructor is called",
             "result": {
               "status": "passed",
-              "duration": 27835401
+              "duration": 28014199
             },
             "line": 30,
             "match": {
@@ -293,7 +293,7 @@
             "name": "addEventListener, render, tellTurn should be called in the stated order",
             "result": {
               "status": "passed",
-              "duration": 345700
+              "duration": 340799
             },
             "line": 31,
             "match": {
@@ -305,7 +305,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 35700
+              "duration": 32800
             },
             "hidden": true,
             "match": {
@@ -317,7 +317,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 80401
+              "duration": 77801
             },
             "hidden": true,
             "match": {
@@ -340,7 +340,7 @@
             "name": "that the tellTurn method in being called",
             "result": {
               "status": "passed",
-              "duration": 101300
+              "duration": 86599
             },
             "line": 35,
             "match": {
@@ -353,7 +353,7 @@
             "name": "the tellTurns inargument should be currentPlayer property",
             "result": {
               "status": "passed",
-              "duration": 65399
+              "duration": 61700
             },
             "line": 36,
             "match": {
@@ -365,7 +365,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 30000
+              "duration": 31500
             },
             "hidden": true,
             "match": {
@@ -377,7 +377,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 66000
+              "duration": 62400
             },
             "hidden": true,
             "match": {
@@ -411,7 +411,7 @@
             "name": "that the method recieves an argument that isn't an integer between zero and six",
             "result": {
               "status": "passed",
-              "duration": 6524200
+              "duration": 7620199
             },
             "line": 7,
             "match": {
@@ -424,7 +424,7 @@
             "name": "it should throw an error saying \"column must be an integer between 0 and 6\"",
             "result": {
               "status": "passed",
-              "duration": 567799
+              "duration": 571100
             },
             "line": 8,
             "match": {
@@ -436,7 +436,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 32800
+              "duration": 33601
             },
             "hidden": true,
             "match": {
@@ -448,7 +448,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 39900
+              "duration": 34000
             },
             "hidden": true,
             "match": {
@@ -471,7 +471,7 @@
             "name": "that playInProgress is true",
             "result": {
               "status": "passed",
-              "duration": 64000
+              "duration": 68300
             },
             "line": 11,
             "match": {
@@ -484,7 +484,7 @@
             "name": "makeMove should return null",
             "result": {
               "status": "passed",
-              "duration": 148200
+              "duration": 155000
             },
             "line": 12,
             "match": {
@@ -496,7 +496,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 29701
+              "duration": 29400
             },
             "hidden": true,
             "match": {
@@ -508,7 +508,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 32299
+              "duration": 31301
             },
             "hidden": true,
             "match": {
@@ -531,7 +531,7 @@
             "name": "that the selected column is full",
             "result": {
               "status": "passed",
-              "duration": 8516999
+              "duration": 7099099
             },
             "line": 15,
             "match": {
@@ -544,7 +544,7 @@
             "name": "it makeMove should return false",
             "result": {
               "status": "passed",
-              "duration": 204300
+              "duration": 201399
             },
             "line": 16,
             "match": {
@@ -556,7 +556,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 34500
+              "duration": 31000
             },
             "hidden": true,
             "match": {
@@ -568,7 +568,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 40799
+              "duration": 32600
             },
             "hidden": true,
             "match": {
@@ -602,7 +602,7 @@
             "name": "that makeMove is possible",
             "result": {
               "status": "passed",
-              "duration": 607600
+              "duration": 632001
             },
             "line": 8,
             "match": {
@@ -615,7 +615,7 @@
             "name": "the board method render should be called",
             "result": {
               "status": "passed",
-              "duration": 70801
+              "duration": 64899
             },
             "line": 9,
             "match": {
@@ -627,7 +627,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 32699
+              "duration": 31501
             },
             "hidden": true,
             "match": {
@@ -639,7 +639,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 76700
+              "duration": 75399
             },
             "hidden": true,
             "match": {
@@ -662,7 +662,7 @@
             "name": "the move was possible and that currentPlayer is one",
             "result": {
               "status": "passed",
-              "duration": 702523799
+              "duration": 654872799
             },
             "line": 12,
             "match": {
@@ -675,7 +675,7 @@
             "name": "currentPlayer should be set to two",
             "result": {
               "status": "passed",
-              "duration": 151000
+              "duration": 178000
             },
             "line": 13,
             "match": {
@@ -687,7 +687,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 54099
+              "duration": 51401
             },
             "hidden": true,
             "match": {
@@ -699,7 +699,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 86200
+              "duration": 105100
             },
             "hidden": true,
             "match": {
@@ -722,7 +722,7 @@
             "name": "the move was possible and that currentPlayer is two",
             "result": {
               "status": "passed",
-              "duration": 600497799
+              "duration": 604199700
             },
             "line": 16,
             "match": {
@@ -735,7 +735,7 @@
             "name": "currentPlayer should be set to one",
             "result": {
               "status": "passed",
-              "duration": 133400
+              "duration": 133399
             },
             "line": 17,
             "match": {
@@ -747,7 +747,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 57700
+              "duration": 89300
             },
             "hidden": true,
             "match": {
@@ -759,7 +759,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 57600
+              "duration": 157900
             },
             "hidden": true,
             "match": {
@@ -782,7 +782,7 @@
             "name": "that the move was possible",
             "result": {
               "status": "passed",
-              "duration": 11871200
+              "duration": 10869400
             },
             "line": 20,
             "match": {
@@ -795,7 +795,7 @@
             "name": "the tellTurn method should be called with the currentPlayer as argument",
             "result": {
               "status": "passed",
-              "duration": 143200
+              "duration": 134700
             },
             "line": 21,
             "match": {
@@ -807,7 +807,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 65500
+              "duration": 63699
             },
             "hidden": true,
             "match": {
@@ -819,7 +819,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1396501
+              "duration": 1285800
             },
             "hidden": true,
             "match": {
@@ -842,7 +842,7 @@
             "name": "that the move is possible",
             "result": {
               "status": "passed",
-              "duration": 17435600
+              "duration": 16012200
             },
             "line": 24,
             "match": {
@@ -855,7 +855,7 @@
             "name": "it should set playInProgress to false",
             "result": {
               "status": "passed",
-              "duration": 133501
+              "duration": 151901
             },
             "line": 25,
             "match": {
@@ -867,7 +867,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 49700
+              "duration": 54299
             },
             "hidden": true,
             "match": {
@@ -879,7 +879,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 952301
+              "duration": 1461000
             },
             "hidden": true,
             "match": {
@@ -902,7 +902,7 @@
             "name": "that winCheck wasn't truthy",
             "result": {
               "status": "passed",
-              "duration": 13918699
+              "duration": 15721801
             },
             "line": 28,
             "match": {
@@ -915,7 +915,7 @@
             "name": "in the end makeMove returns true",
             "result": {
               "status": "passed",
-              "duration": 368104199
+              "duration": 353819999
             },
             "line": 29,
             "match": {
@@ -927,7 +927,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 62000
+              "duration": 49100
             },
             "hidden": true,
             "match": {
@@ -939,7 +939,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 56600
+              "duration": 52800
             },
             "hidden": true,
             "match": {
@@ -973,7 +973,7 @@
             "name": "that method winCheck returns something truthy",
             "result": {
               "status": "passed",
-              "duration": 353205501
+              "duration": 356080399
             },
             "line": 7,
             "match": {
@@ -986,7 +986,7 @@
             "name": "makeMove should call removeEventListener",
             "result": {
               "status": "passed",
-              "duration": 106900
+              "duration": 97800
             },
             "line": 8,
             "match": {
@@ -998,7 +998,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 48701
+              "duration": 50300
             },
             "hidden": true,
             "match": {
@@ -1010,7 +1010,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 58400
+              "duration": 73900
             },
             "hidden": true,
             "match": {
@@ -1033,7 +1033,7 @@
             "name": "that winCheck returns an object with a combo attribute",
             "result": {
               "status": "passed",
-              "duration": 7788799
+              "duration": 9098401
             },
             "line": 11,
             "match": {
@@ -1046,7 +1046,7 @@
             "name": "the markWin method should be called with the combo value as argument",
             "result": {
               "status": "passed",
-              "duration": 259801
+              "duration": 231201
             },
             "line": 12,
             "match": {
@@ -1059,7 +1059,7 @@
             "name": "makeMove should return true",
             "result": {
               "status": "passed",
-              "duration": 352012501
+              "duration": 345858800
             },
             "line": 13,
             "match": {
@@ -1071,7 +1071,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 40601
+              "duration": 49900
             },
             "hidden": true,
             "match": {
@@ -1083,7 +1083,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 35701
+              "duration": 53800
             },
             "hidden": true,
             "match": {
@@ -1106,7 +1106,7 @@
             "name": "that winCheck returns an object with a winner attribute",
             "result": {
               "status": "passed",
-              "duration": 91000
+              "duration": 105001
             },
             "line": 16,
             "match": {
@@ -1119,7 +1119,7 @@
             "name": "the over method should be called with winner value as argument",
             "result": {
               "status": "passed",
-              "duration": 105599
+              "duration": 99601
             },
             "line": 17,
             "match": {
@@ -1131,7 +1131,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 49601
+              "duration": 43799
             },
             "hidden": true,
             "match": {
@@ -1143,7 +1143,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 853200
+              "duration": 828400
             },
             "hidden": true,
             "match": {
@@ -1176,7 +1176,7 @@
             "name": "that one of the players has won",
             "result": {
               "status": "passed",
-              "duration": 8686101
+              "duration": 12274999
             },
             "line": 4,
             "match": {
@@ -1189,7 +1189,7 @@
             "name": "the method markWin(combo) recieves the argument combo",
             "result": {
               "status": "passed",
-              "duration": 3265501
+              "duration": 4264201
             },
             "line": 5,
             "match": {
@@ -1202,7 +1202,7 @@
             "name": "adds the css-class win to each one of the div-element.",
             "result": {
               "status": "passed",
-              "duration": 1023500
+              "duration": 1188901
             },
             "line": 6,
             "match": {
@@ -1214,7 +1214,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 50800
+              "duration": 51700
             },
             "hidden": true,
             "match": {
@@ -1226,7 +1226,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 944101
+              "duration": 882200
             },
             "hidden": true,
             "match": {
@@ -1260,7 +1260,7 @@
             "name": "that a game is in play",
             "result": {
               "status": "passed",
-              "duration": 21781201
+              "duration": 30019400
             },
             "line": 7,
             "match": {
@@ -1273,7 +1273,7 @@
             "name": "the DOM element .board should have fortytwo divs in it",
             "result": {
               "status": "passed",
-              "duration": 943900
+              "duration": 808999
             },
             "line": 8,
             "match": {
@@ -1285,7 +1285,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 46900
+              "duration": 43700
             },
             "hidden": true,
             "match": {
@@ -1297,7 +1297,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2542500
+              "duration": 963601
             },
             "hidden": true,
             "match": {
@@ -1320,7 +1320,7 @@
             "name": "that a player has a brick on a spot",
             "result": {
               "status": "passed",
-              "duration": 19470899
+              "duration": 17016300
             },
             "line": 11,
             "match": {
@@ -1333,7 +1333,7 @@
             "name": "the div on that spot should have the class representing the player",
             "result": {
               "status": "passed",
-              "duration": 985999
+              "duration": 853800
             },
             "line": 12,
             "match": {
@@ -1345,7 +1345,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 59600
+              "duration": 53200
             },
             "hidden": true,
             "match": {
@@ -1357,7 +1357,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1010700
+              "duration": 997100
             },
             "hidden": true,
             "match": {
@@ -1380,7 +1380,7 @@
             "name": "that the board has fortytwo divs in it",
             "result": {
               "status": "passed",
-              "duration": 1308301
+              "duration": 1652400
             },
             "line": 15,
             "match": {
@@ -1393,7 +1393,7 @@
             "name": "each of those divs should have an empty div in them",
             "result": {
               "status": "passed",
-              "duration": 96699
+              "duration": 125400
             },
             "line": 16,
             "match": {
@@ -1405,7 +1405,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 49100
+              "duration": 52401
             },
             "hidden": true,
             "match": {
@@ -1417,7 +1417,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1133200
+              "duration": 955499
             },
             "hidden": true,
             "match": {
@@ -1451,7 +1451,7 @@
             "name": "that the a player has won",
             "result": {
               "status": "passed",
-              "duration": 30180200
+              "duration": 19791299
             },
             "line": 7,
             "match": {
@@ -1464,7 +1464,7 @@
             "name": "winCheck() returns an object with the winner and combo attribute",
             "result": {
               "status": "passed",
-              "duration": 1216400
+              "duration": 1365900
             },
             "line": 8,
             "match": {
@@ -1476,7 +1476,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 59100
+              "duration": 58499
             },
             "hidden": true,
             "match": {
@@ -1488,7 +1488,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1086500
+              "duration": 1125300
             },
             "hidden": true,
             "match": {
@@ -1511,7 +1511,7 @@
             "name": "that someone has won",
             "result": {
               "status": "passed",
-              "duration": 88801
+              "duration": 84900
             },
             "line": 11,
             "match": {
@@ -1524,7 +1524,7 @@
             "name": "the winner attribute of the winCheck() return value should be one / two",
             "result": {
               "status": "passed",
-              "duration": 211200
+              "duration": 229999
             },
             "line": 12,
             "match": {
@@ -1536,7 +1536,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 58500
+              "duration": 73799
             },
             "hidden": true,
             "match": {
@@ -1548,7 +1548,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 955600
+              "duration": 3435500
             },
             "hidden": true,
             "match": {
@@ -1571,7 +1571,7 @@
             "name": "that the outcome of the game is a tie",
             "result": {
               "status": "passed",
-              "duration": 132601
+              "duration": 126799
             },
             "line": 15,
             "match": {
@@ -1584,7 +1584,7 @@
             "name": "the winner attribute of the winCheck() return value should be 'draw'",
             "result": {
               "status": "passed",
-              "duration": 20315400
+              "duration": 453700
             },
             "line": 16,
             "match": {
@@ -1596,7 +1596,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 54600
+              "duration": 56499
             },
             "hidden": true,
             "match": {
@@ -1608,7 +1608,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1788300
+              "duration": 3974299
             },
             "hidden": true,
             "match": {
@@ -1631,7 +1631,7 @@
             "name": "that neither of player has won and the game isn't a tie",
             "result": {
               "status": "passed",
-              "duration": 120100
+              "duration": 125100
             },
             "line": 19,
             "match": {
@@ -1644,7 +1644,7 @@
             "name": "winCheck() should return the value false",
             "result": {
               "status": "passed",
-              "duration": 286301
+              "duration": 245200
             },
             "line": 20,
             "match": {
@@ -1656,7 +1656,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 50601
+              "duration": 106700
             },
             "hidden": true,
             "match": {
@@ -1668,7 +1668,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 920500
+              "duration": 1026800
             },
             "hidden": true,
             "match": {
@@ -1702,7 +1702,7 @@
             "name": "that the method addEventListeners has an EventListener with a click event",
             "result": {
               "status": "passed",
-              "duration": 94101
+              "duration": 89200
             },
             "line": 8,
             "match": {
@@ -1715,7 +1715,7 @@
             "name": "the start method should be called.",
             "result": {
               "status": "passed",
-              "duration": 79100
+              "duration": 77900
             },
             "line": 9,
             "match": {
@@ -1727,7 +1727,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 69601
+              "duration": 63399
             },
             "hidden": true,
             "match": {
@@ -1739,7 +1739,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1184901
+              "duration": 30978700
             },
             "hidden": true,
             "match": {
@@ -1773,7 +1773,7 @@
             "name": "that the game starts",
             "result": {
               "status": "passed",
-              "duration": 172500
+              "duration": 218300
             },
             "line": 8,
             "match": {
@@ -1786,7 +1786,7 @@
             "name": "the constructor should call addEventListener and start in order",
             "result": {
               "status": "passed",
-              "duration": 120699
+              "duration": 129201
             },
             "line": 9,
             "match": {
@@ -1798,7 +1798,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 51199
+              "duration": 52401
             },
             "hidden": true,
             "match": {
@@ -1810,7 +1810,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 966100
+              "duration": 14949000
             },
             "hidden": true,
             "match": {
@@ -1844,7 +1844,7 @@
             "name": "that the methods recives an invalid argument",
             "result": {
               "status": "passed",
-              "duration": 137400
+              "duration": 181901
             },
             "line": 9,
             "match": {
@@ -1857,7 +1857,7 @@
             "name": "an error message \"won must be “draw”, 1 or 2\" be thrown",
             "result": {
               "status": "passed",
-              "duration": 11631300
+              "duration": 16354901
             },
             "line": 10,
             "match": {
@@ -1869,7 +1869,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 82900
+              "duration": 47801
             },
             "hidden": true,
             "match": {
@@ -1881,7 +1881,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1729500
+              "duration": 871399
             },
             "hidden": true,
             "match": {
@@ -1904,7 +1904,7 @@
             "name": "that the game has ended as draw",
             "result": {
               "status": "passed",
-              "duration": 3888200
+              "duration": 1730399
             },
             "line": 14,
             "match": {
@@ -1917,7 +1917,7 @@
             "name": "a message displaying “Det blev oavgjort!”",
             "result": {
               "status": "passed",
-              "duration": 2752600
+              "duration": 1018100
             },
             "line": 15,
             "match": {
@@ -1929,7 +1929,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 51400
+              "duration": 71100
             },
             "hidden": true,
             "match": {
@@ -1941,7 +1941,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1210500
+              "duration": 1003299
             },
             "hidden": true,
             "match": {
@@ -1964,7 +1964,7 @@
             "name": "that the game has finished and red has won",
             "result": {
               "status": "passed",
-              "duration": 1234999
+              "duration": 1356801
             },
             "line": 18,
             "match": {
@@ -1977,7 +1977,7 @@
             "name": "a message displaying the winner Röd vann!",
             "result": {
               "status": "passed",
-              "duration": 527800
+              "duration": 407601
             },
             "line": 19,
             "match": {
@@ -1989,7 +1989,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 52301
+              "duration": 56901
             },
             "hidden": true,
             "match": {
@@ -2001,7 +2001,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 929599
+              "duration": 998300
             },
             "hidden": true,
             "match": {
@@ -2024,7 +2024,7 @@
             "name": "that the game has finished and yellow has won",
             "result": {
               "status": "passed",
-              "duration": 1045200
+              "duration": 1291501
             },
             "line": 22,
             "match": {
@@ -2037,7 +2037,7 @@
             "name": "a message displaying the winner Gul vann!",
             "result": {
               "status": "passed",
-              "duration": 432000
+              "duration": 674300
             },
             "line": 23,
             "match": {
@@ -2049,7 +2049,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 56701
+              "duration": 47800
             },
             "hidden": true,
             "match": {
@@ -2061,7 +2061,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 909200
+              "duration": 954600
             },
             "hidden": true,
             "match": {
@@ -2084,7 +2084,7 @@
             "name": "that the game is over",
             "result": {
               "status": "passed",
-              "duration": 163399
+              "duration": 83500
             },
             "line": 27,
             "match": {
@@ -2097,7 +2097,7 @@
             "name": "the .message element should have a button with the class again",
             "result": {
               "status": "passed",
-              "duration": 921400
+              "duration": 892399
             },
             "line": 28,
             "match": {
@@ -2109,7 +2109,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 48100
+              "duration": 39500
             },
             "hidden": true,
             "match": {
@@ -2121,7 +2121,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 917800
+              "duration": 853200
             },
             "hidden": true,
             "match": {
@@ -2155,7 +2155,7 @@
             "name": "a game is being started",
             "result": {
               "status": "passed",
-              "duration": 38591200
+              "duration": 40019501
             },
             "line": 7,
             "match": {
@@ -2168,7 +2168,7 @@
             "name": "the Game.start() method should create a new board stored in this.board",
             "result": {
               "status": "passed",
-              "duration": 186300
+              "duration": 177600
             },
             "line": 8,
             "match": {
@@ -2180,7 +2180,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 50300
+              "duration": 50700
             },
             "hidden": true,
             "match": {
@@ -2192,7 +2192,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 950600
+              "duration": 2107299
             },
             "hidden": true,
             "match": {
@@ -2226,7 +2226,7 @@
             "name": "the taken argument is not one or two",
             "result": {
               "status": "passed",
-              "duration": 7926501
+              "duration": 6996700
             },
             "line": 8,
             "match": {
@@ -2236,10 +2236,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "it should throw \"player must be 1 or 2\"",
+            "name": "it should throw player must be 1 or 2",
             "result": {
               "status": "passed",
-              "duration": 247901
+              "duration": 254801
             },
             "line": 9,
             "match": {
@@ -2251,7 +2251,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 45001
+              "duration": 44700
             },
             "hidden": true,
             "match": {
@@ -2263,7 +2263,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 913701
+              "duration": 924799
             },
             "hidden": true,
             "match": {
@@ -2286,7 +2286,7 @@
             "name": "that it is yellows turn",
             "result": {
               "status": "passed",
-              "duration": 577499
+              "duration": 517200
             },
             "line": 12,
             "match": {
@@ -2299,7 +2299,7 @@
             "name": "the .message element should display Guls tur...",
             "result": {
               "status": "passed",
-              "duration": 290800
+              "duration": 432899
             },
             "line": 13,
             "match": {
@@ -2311,7 +2311,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1766700
+              "duration": 52600
             },
             "hidden": true,
             "match": {
@@ -2323,7 +2323,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 957600
+              "duration": 1728400
             },
             "hidden": true,
             "match": {
@@ -2346,7 +2346,7 @@
             "name": "that it is reds turn",
             "result": {
               "status": "passed",
-              "duration": 460599
+              "duration": 504800
             },
             "line": 16,
             "match": {
@@ -2359,7 +2359,7 @@
             "name": "the .message element should display Röds tur...",
             "result": {
               "status": "passed",
-              "duration": 286599
+              "duration": 292400
             },
             "line": 17,
             "match": {
@@ -2371,7 +2371,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 57100
+              "duration": 55700
             },
             "hidden": true,
             "match": {
@@ -2383,7 +2383,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 12873200
+              "duration": 1062200
             },
             "hidden": true,
             "match": {

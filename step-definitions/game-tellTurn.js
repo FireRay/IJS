@@ -9,9 +9,9 @@ module.exports = function () {
     testGame = new Game();
   });
 
-  this.Then(/^it should throw "([^"]*)"$/, function (expectedErrorMessage) {
+  this.Then(/^it should throw player must be 1 or 2/, function () {
     // Write code here that turns the phrase above into concrete actions  
-    expect(() => testGame.tellTurn(3)).to.throw(expectedErrorMessage);
+    expect(() => testGame.tellTurn(3)).to.throw('player must be 1 or 2');
 
   });
 
