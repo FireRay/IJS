@@ -44,7 +44,7 @@ class Game {
     if (!this.name2) {
       this.name2 = "Gul"
       this.name2turn = "Gul";
-    } else if (this.name2array[this.name2array.length - 1] == "s"){
+    } else if (this.name2array[this.name2array.length - 1].toLowerCase() == "s"){
       this.name2array.pop();
       this.name2turn = this.name2array.join('');
     }
